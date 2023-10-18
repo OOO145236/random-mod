@@ -29,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.randomxd.init.RandomXdModTabs;
 import net.mcreator.randomxd.init.RandomXdModItems;
 
 import java.util.function.Supplier;
@@ -50,6 +51,8 @@ public class RandomXdMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		RandomXdModItems.REGISTRY.register(bus);
+
+		RandomXdModTabs.REGISTRY.register(bus);
 
 	}
 
