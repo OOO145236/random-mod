@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_xd:block/etste",
+    "up": "random_xd:block/etste",
+    "north": "random_xd:block/etste",
+    "east": "random_xd:block/etste",
+    "south": "random_xd:block/etste",
+    "west": "random_xd:block/etste",
+    "particle": "random_xd:block/etste"
+  },
+  "render_type": "solid"
+}
