@@ -3,7 +3,6 @@
     {
       "name": "Test",
       "type": "item",
-      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "test",
@@ -13,30 +12,13 @@
           "src/main/resources/assets/random_xd/models/item/test.json"
         ]
       }
-    },
-    {
-      "name": "Rtest",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "rtest",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/random_xd/blockstates/rtest.json",
-          "src/main/resources/assets/random_xd/models/block/rtest.json",
-          "src/main/java/net/mcreator/randomxd/block/RtestBlock.java",
-          "src/main/resources/assets/random_xd/models/item/rtest.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.random_xd.test": "Test",
-      "block.random_xd.rtest": "Rtest"
+      "item.random_xd.test": "Test"
     }
   },
   "foldersRoot": {
