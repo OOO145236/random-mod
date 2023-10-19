@@ -22,7 +22,7 @@ public class RandomXdModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 
-		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+		if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(RandomXdModItems.TEST.get());
 		}
 	}
