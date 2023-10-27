@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "2": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "3": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "5": {
+      "item": "random_xd:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "random_xd:titanium_armor_boots",
+    "count": 1
+  }
+}

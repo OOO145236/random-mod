@@ -1,9 +1,331 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "TitaniumIngot",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TitaniumIngotItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/world/features/ores/TitaniumOreFeature.java",
+          "src/main/resources/data/random_xd/forge/biome_modifier/titanium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/randomxd/block/TitaniumOreBlock.java",
+          "src/main/resources/data/random_xd/worldgen/configured_feature/titanium_ore.json",
+          "src/main/resources/assets/random_xd/models/block/titanium_ore.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_ore.json",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/titanium_ore.json",
+          "src/main/resources/assets/random_xd/blockstates/titanium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumBlock",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/TitaniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_block.json",
+          "src/main/resources/assets/random_xd/blockstates/titanium_block.json",
+          "src/main/resources/assets/random_xd/models/block/titanium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumOreSmelting",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/titanium_pickaxe.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumPickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumAxe",
+      "type": "tool",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TitaniumAxeItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_axe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TitaniumSwordItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumShovel",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/titanium_shovel.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumHoe",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TitaniumHoeItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumAxeRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumShovelRecipe",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumHoeRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmor",
+      "type": "armor",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_helmet.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumArmorItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_leggings.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_chestplate.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTitaniumOre",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/raw_titanium_ore.json",
+          "src/main/java/net/mcreator/randomxd/item/RawTitaniumOreItem.java"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.random_xd.titanium_block": "Block of Titanium",
+      "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
+      "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
+      "item.random_xd.titanium_armor_boots": "Titanium Boots",
+      "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
+      "item.random_xd.titanium_hoe": "Titanium Hoe",
+      "block.random_xd.titanium_ore": "Titanium Ore",
+      "item.random_xd.titanium_ingot": "Titanium",
+      "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
+      "item.random_xd.titanium_sword": "Titanium Sword",
+      "item.random_xd.titanium_shovel": "Titanium Shovel",
+      "item.random_xd.titanium_axe": "Titanium Axe",
+      "item.random_xd.raw_titanium_ore": "Raw Titanium Ore"
+    }
   },
   "foldersRoot": {
     "name": "~",

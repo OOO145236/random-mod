@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "1": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "2": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "3": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "4": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "5": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "6": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "7": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "8": {
+      "item": "random_xd:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "random_xd:titanium_block",
+    "count": 1
+  }
+}

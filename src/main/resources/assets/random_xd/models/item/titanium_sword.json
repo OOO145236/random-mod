@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "random_xd:item/netherite_ingot_1"
+  }
+}
