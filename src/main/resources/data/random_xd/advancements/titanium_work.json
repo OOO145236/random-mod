@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "random_xd:titanium_armor_chestplate"
+    },
+    "title": {
+      "translate": "advancements.titanium_work.title"
+    },
+    "description": {
+      "translate": "advancements.titanium_work.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "titanium_work": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "random_xd:uranium"
+}
