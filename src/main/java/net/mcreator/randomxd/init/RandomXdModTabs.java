@@ -30,11 +30,21 @@ public class RandomXdModTabs {
 			tabData.accept(RandomXdModItems.TITANIUM_ARMOR_BOOTS.get());
 		}
 
+		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+			tabData.accept(RandomXdModItems.RAW_URANIUM_ORE.get());
+		}
+
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(RandomXdModItems.TITANIUM_AXE.get());
 			tabData.accept(RandomXdModItems.TITANIUM_PICKAXE.get());
 			tabData.accept(RandomXdModItems.TITANIUM_SHOVEL.get());
 			tabData.accept(RandomXdModItems.TITANIUM_HOE.get());
+			tabData.accept(RandomXdModItems.TITANIUM_SAW.get());
+		}
+
+		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(RandomXdModBlocks.BLACKSTONEDESATURATED.get().asItem());
+			tabData.accept(RandomXdModBlocks.URANIUM_ORE.get().asItem());
 		}
 	}
 }

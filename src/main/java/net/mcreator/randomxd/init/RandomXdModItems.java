@@ -14,11 +14,13 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.randomxd.item.TitaniumSwordItem;
 import net.mcreator.randomxd.item.TitaniumShovelItem;
+import net.mcreator.randomxd.item.TitaniumSawItem;
 import net.mcreator.randomxd.item.TitaniumPickaxeItem;
 import net.mcreator.randomxd.item.TitaniumIngotItem;
 import net.mcreator.randomxd.item.TitaniumHoeItem;
 import net.mcreator.randomxd.item.TitaniumAxeItem;
 import net.mcreator.randomxd.item.TitaniumArmorItem;
+import net.mcreator.randomxd.item.RawUraniumOreItem;
 import net.mcreator.randomxd.item.RawTitaniumOreItem;
 import net.mcreator.randomxd.RandomXdMod;
 
@@ -37,6 +39,11 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> TITANIUM_ARMOR_LEGGINGS = REGISTRY.register("titanium_armor_leggings", () -> new TitaniumArmorItem.Leggings());
 	public static final RegistryObject<Item> TITANIUM_ARMOR_BOOTS = REGISTRY.register("titanium_armor_boots", () -> new TitaniumArmorItem.Boots());
 	public static final RegistryObject<Item> RAW_TITANIUM_ORE = REGISTRY.register("raw_titanium_ore", () -> new RawTitaniumOreItem());
+	public static final RegistryObject<Item> DEEPSLATE_TITANIUM_ORE = block(RandomXdModBlocks.DEEPSLATE_TITANIUM_ORE);
+	public static final RegistryObject<Item> TITANIUM_SAW = REGISTRY.register("titanium_saw", () -> new TitaniumSawItem());
+	public static final RegistryObject<Item> BLACKSTONEDESATURATED = block(RandomXdModBlocks.BLACKSTONEDESATURATED);
+	public static final RegistryObject<Item> URANIUM_ORE = block(RandomXdModBlocks.URANIUM_ORE);
+	public static final RegistryObject<Item> RAW_URANIUM_ORE = REGISTRY.register("raw_uranium_ore", () -> new RawUraniumOreItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

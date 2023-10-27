@@ -1,6 +1,8 @@
 
 package net.mcreator.randomxd.item;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -8,8 +10,8 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 
 import net.mcreator.randomxd.init.RandomXdModItems;
 
@@ -33,7 +35,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_netherite"));
 			}
 
 			@Override
@@ -65,7 +67,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium__layer_1.png";
+			return "random_xd:textures/models/armor/titanium___layer_1.png";
 		}
 	}
 
@@ -76,7 +78,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium__layer_1.png";
+			return "random_xd:textures/models/armor/titanium___layer_1.png";
 		}
 	}
 
@@ -87,7 +89,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium__layer_2.png";
+			return "random_xd:textures/models/armor/titanium___layer_2.png";
 		}
 	}
 
@@ -98,7 +100,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium__layer_1.png";
+			return "random_xd:textures/models/armor/titanium___layer_1.png";
 		}
 	}
 }

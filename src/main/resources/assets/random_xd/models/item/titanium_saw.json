@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "random_xd:item/novii_proiekt_-_2023-10-27t122813.435"
+  }
+}

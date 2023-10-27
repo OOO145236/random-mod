@@ -306,25 +306,145 @@
           "src/main/java/net/mcreator/randomxd/item/RawTitaniumOreItem.java"
         ]
       }
+    },
+    {
+      "name": "DeepslateTitaniumOre",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/worldgen/configured_feature/deepslate_titanium_ore.json",
+          "src/main/java/net/mcreator/randomxd/block/DeepslateTitaniumOreBlock.java",
+          "src/main/java/net/mcreator/randomxd/world/features/ores/DeepslateTitaniumOreFeature.java",
+          "src/main/resources/data/random_xd/forge/biome_modifier/deepslate_titanium_ore_biome_modifier.json",
+          "src/main/resources/assets/random_xd/models/block/deepslate_titanium_ore.json",
+          "src/main/resources/assets/random_xd/models/item/deepslate_titanium_ore.json",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/deepslate_titanium_ore.json",
+          "src/main/resources/assets/random_xd/blockstates/deepslate_titanium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumSaw",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_saw",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/titanium_saw.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumSawItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Blackstonedesaturated",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackstonedesaturated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/BlackstonedesaturatedBlock.java",
+          "src/main/resources/assets/random_xd/models/item/blackstonedesaturated.json",
+          "src/main/resources/assets/random_xd/blockstates/blackstonedesaturated.json",
+          "src/main/resources/assets/random_xd/models/block/blackstonedesaturated.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumcaves",
+      "type": "biome",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumcaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/worldgen/biome/uraniumcaves.json",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/uraniumcaves_tree.json",
+          "src/main/resources/data/random_xd/worldgen/configured_feature/uraniumcaves_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/uranium_ore.json",
+          "src/main/resources/data/random_xd/forge/biome_modifier/uranium_ore_biome_modifier.json",
+          "src/main/java/net/mcreator/randomxd/world/features/ores/UraniumOreFeature.java",
+          "src/main/resources/assets/random_xd/models/block/uranium_ore.json",
+          "src/main/java/net/mcreator/randomxd/block/UraniumOreBlock.java",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/data/random_xd/worldgen/configured_feature/uranium_ore.json",
+          "src/main/resources/assets/random_xd/blockstates/uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "RawUraniumOre",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/RawUraniumOreItem.java",
+          "src/main/resources/assets/random_xd/models/item/raw_uranium_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranium",
+      "type": "achievement",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/advancements/uranium.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.random_xd.uranium_ore": "Uranium Ore",
       "block.random_xd.titanium_block": "Block of Titanium",
       "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
+      "biome.random_xd.uraniumcaves": "Uranium caves",
       "item.random_xd.titanium_hoe": "Titanium Hoe",
       "block.random_xd.titanium_ore": "Titanium Ore",
       "item.random_xd.titanium_ingot": "Titanium",
       "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
+      "block.random_xd.deepslate_titanium_ore": "Titanium Ore",
+      "advancements.uranium.title": "URAAAAAANIUM!",
       "item.random_xd.titanium_sword": "Titanium Sword",
+      "block.random_xd.blackstonedesaturated": "Blackstonedesaturated",
+      "item.random_xd.titanium_saw": "Titanium saw",
       "item.random_xd.titanium_shovel": "Titanium Shovel",
+      "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
       "item.random_xd.titanium_axe": "Titanium Axe",
-      "item.random_xd.raw_titanium_ore": "Raw Titanium Ore"
+      "item.random_xd.raw_titanium_ore": "Raw Titanium Ore",
+      "advancements.uranium.descr": "Mine Uranium Ore"
     }
   },
   "foldersRoot": {

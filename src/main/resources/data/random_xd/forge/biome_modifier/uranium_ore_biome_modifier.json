@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "random_xd:uraniumcaves",
+  "features": "random_xd:uranium_ore",
+  "step": "underground_ores"
+}

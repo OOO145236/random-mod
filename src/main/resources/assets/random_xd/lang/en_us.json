@@ -1,15 +1,23 @@
 {
+  "block.random_xd.uranium_ore": "Uranium Ore",
   "block.random_xd.titanium_block": "Block of Titanium",
   "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
   "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
   "item.random_xd.titanium_armor_boots": "Titanium Boots",
   "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
+  "biome.random_xd.uraniumcaves": "Uranium caves",
   "item.random_xd.titanium_hoe": "Titanium Hoe",
   "block.random_xd.titanium_ore": "Titanium Ore",
   "item.random_xd.titanium_ingot": "Titanium",
   "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
+  "block.random_xd.deepslate_titanium_ore": "Titanium Ore",
+  "advancements.uranium.title": "URAAAAAANIUM!",
   "item.random_xd.titanium_sword": "Titanium Sword",
+  "block.random_xd.blackstonedesaturated": "Blackstonedesaturated",
+  "item.random_xd.titanium_saw": "Titanium saw",
   "item.random_xd.titanium_shovel": "Titanium Shovel",
+  "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
   "item.random_xd.titanium_axe": "Titanium Axe",
-  "item.random_xd.raw_titanium_ore": "Raw Titanium Ore"
+  "item.random_xd.raw_titanium_ore": "Raw Titanium Ore",
+  "advancements.uranium.descr": "Mine Uranium Ore"
 }
