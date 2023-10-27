@@ -41,7 +41,6 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> RAW_TITANIUM_ORE = REGISTRY.register("raw_titanium_ore", () -> new RawTitaniumOreItem());
 	public static final RegistryObject<Item> DEEPSLATE_TITANIUM_ORE = block(RandomXdModBlocks.DEEPSLATE_TITANIUM_ORE);
 	public static final RegistryObject<Item> TITANIUM_SAW = REGISTRY.register("titanium_saw", () -> new TitaniumSawItem());
-	public static final RegistryObject<Item> BLACKSTONEDESATURATED = block(RandomXdModBlocks.BLACKSTONEDESATURATED);
 	public static final RegistryObject<Item> URANIUM_ORE = block(RandomXdModBlocks.URANIUM_ORE);
 	public static final RegistryObject<Item> RAW_URANIUM_ORE = REGISTRY.register("raw_uranium_ore", () -> new RawUraniumOreItem());
 

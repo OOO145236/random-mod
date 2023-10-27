@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "blackstone_top_1",
+    "texture": "blackstone_top_3",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -122,12 +122,24 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:Uraniumcaves"
+        "value": "basalt_deltas"
+      },
+      {
+        "value": "crimson_forest"
+      },
+      {
+        "value": "warped_forest"
+      },
+      {
+        "value": "soul_sand_valley"
+      },
+      {
+        "value": "nether"
       }
     ],
     "blocksToReplace": [
       {
-        "value": "CUSTOM:Blackstonedesaturated"
+        "value": "Blocks.BLACKSTONE"
       }
     ],
     "generationShape": "UNIFORM",

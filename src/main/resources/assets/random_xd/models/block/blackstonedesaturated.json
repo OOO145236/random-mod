@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "random_xd:block/blackstone_top",
-    "particle": "random_xd:block/blackstone_top"
-  },
-  "render_type": "solid"
-}

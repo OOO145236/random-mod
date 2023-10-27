@@ -43,7 +43,6 @@ public class RandomXdModTabs {
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(RandomXdModBlocks.BLACKSTONEDESATURATED.get().asItem());
 			tabData.accept(RandomXdModBlocks.URANIUM_ORE.get().asItem());
 		}
 	}
