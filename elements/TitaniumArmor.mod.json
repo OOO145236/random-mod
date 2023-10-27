@@ -3,17 +3,17 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "titanium_head",
+    "textureHelmet": "netherite_boots_2",
     "enableBody": true,
-    "textureBody": "titanium_body",
+    "textureBody": "netherite_boots_1",
     "enableLeggings": true,
-    "textureLeggings": "titanium_leggings",
+    "textureLeggings": "netherite_boots_3",
     "enableBoots": true,
-    "textureBoots": "titanium_boots",
+    "textureBoots": "netherite_boots",
     "creativeTab": {
       "value": "COMBAT"
     },
-    "armorTextureFile": "titanium",
+    "armorTextureFile": "titanium_",
     "helmetName": "Titanium Helmet",
     "bodyName": "Titanium Chestplate",
     "leggingsName": "Titanium Leggings",

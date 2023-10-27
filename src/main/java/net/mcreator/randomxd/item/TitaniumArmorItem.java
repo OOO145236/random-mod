@@ -65,7 +65,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium_layer_1.png";
+			return "random_xd:textures/models/armor/titanium__layer_1.png";
 		}
 	}
 
@@ -76,7 +76,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium_layer_1.png";
+			return "random_xd:textures/models/armor/titanium__layer_1.png";
 		}
 	}
 
@@ -87,7 +87,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium_layer_2.png";
+			return "random_xd:textures/models/armor/titanium__layer_2.png";
 		}
 	}
 
@@ -98,7 +98,7 @@ public abstract class TitaniumArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "random_xd:textures/models/armor/titanium_layer_1.png";
+			return "random_xd:textures/models/armor/titanium__layer_1.png";
 		}
 	}
 }
