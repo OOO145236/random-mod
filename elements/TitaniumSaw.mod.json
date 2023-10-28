@@ -3,9 +3,9 @@
   "_type": "tool",
   "definition": {
     "toolType": "Axe",
-    "renderType": 0,
-    "texture": "novii_proiekt_-_2023-10-27t122813.435",
-    "customModelName": "Normal",
+    "renderType": 1,
+    "texture": "texturesaw",
+    "customModelName": "saw:default",
     "name": "Titanium saw",
     "specialInfo": [],
     "creativeTab": {
