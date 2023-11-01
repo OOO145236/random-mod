@@ -32,6 +32,7 @@ public class RandomXdModTabs {
 
 		if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
 			tabData.accept(RandomXdModItems.RAW_URANIUM_ORE.get());
+			tabData.accept(RandomXdModItems.URANIUMINGOT.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
@@ -40,6 +41,8 @@ public class RandomXdModTabs {
 			tabData.accept(RandomXdModItems.TITANIUM_SHOVEL.get());
 			tabData.accept(RandomXdModItems.TITANIUM_HOE.get());
 			tabData.accept(RandomXdModItems.TITANIUM_SAW.get());
+			tabData.accept(RandomXdModItems.CHEMISTRYBUCKET.get());
+			tabData.accept(RandomXdModItems.CHEMISTRY_BUCKET_GLOWSTONE_ACID.get());
 		}
 
 		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {

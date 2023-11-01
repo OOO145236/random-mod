@@ -1,0 +1,9 @@
+{
+  "parent": "random_xd:custom/lab",
+  "textures": {
+    "all": "random_xd:block/texturelab",
+    "particle": "random_xd:block/texturelab",
+    "0": "random_xd:block/texturelab"
+  },
+  "render_type": "cutout"
+}

@@ -14,6 +14,7 @@ import net.mcreator.randomxd.block.UraniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumBlockBlock;
 import net.mcreator.randomxd.block.DeepslateTitaniumOreBlock;
+import net.mcreator.randomxd.block.ChemicallaboratoryBlock;
 import net.mcreator.randomxd.RandomXdMod;
 
 public class RandomXdModBlocks {
@@ -22,4 +23,5 @@ public class RandomXdModBlocks {
 	public static final RegistryObject<Block> TITANIUM_ORE = REGISTRY.register("titanium_ore", () -> new TitaniumOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_TITANIUM_ORE = REGISTRY.register("deepslate_titanium_ore", () -> new DeepslateTitaniumOreBlock());
 	public static final RegistryObject<Block> URANIUM_ORE = REGISTRY.register("uranium_ore", () -> new UraniumOreBlock());
+	public static final RegistryObject<Block> CHEMICALLABORATORY = REGISTRY.register("chemicallaboratory", () -> new ChemicallaboratoryBlock());
 }

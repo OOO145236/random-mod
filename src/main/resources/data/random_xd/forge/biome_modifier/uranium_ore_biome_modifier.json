@@ -1,12 +1,8 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "warped_forest",
-    "soul_sand_valley",
-    "basalt_deltas",
-    "crimson_forest",
-    "nether_wastes"
-  ],
+  "biomes": {
+    "type": "forge:any"
+  },
   "features": "random_xd:uranium_ore",
   "step": "underground_ores"
 }

@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.randomxd.item.UraniumingotItem;
 import net.mcreator.randomxd.item.TitaniumSwordItem;
 import net.mcreator.randomxd.item.TitaniumShovelItem;
 import net.mcreator.randomxd.item.TitaniumSawItem;
@@ -22,6 +23,8 @@ import net.mcreator.randomxd.item.TitaniumAxeItem;
 import net.mcreator.randomxd.item.TitaniumArmorItem;
 import net.mcreator.randomxd.item.RawUraniumOreItem;
 import net.mcreator.randomxd.item.RawTitaniumOreItem;
+import net.mcreator.randomxd.item.ChemistrybucketItem;
+import net.mcreator.randomxd.item.ChemistryBucketGlowstoneAcidItem;
 import net.mcreator.randomxd.RandomXdMod;
 
 public class RandomXdModItems {
@@ -43,6 +46,10 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> TITANIUM_SAW = REGISTRY.register("titanium_saw", () -> new TitaniumSawItem());
 	public static final RegistryObject<Item> URANIUM_ORE = block(RandomXdModBlocks.URANIUM_ORE);
 	public static final RegistryObject<Item> RAW_URANIUM_ORE = REGISTRY.register("raw_uranium_ore", () -> new RawUraniumOreItem());
+	public static final RegistryObject<Item> URANIUMINGOT = REGISTRY.register("uraniumingot", () -> new UraniumingotItem());
+	public static final RegistryObject<Item> CHEMICALLABORATORY = block(RandomXdModBlocks.CHEMICALLABORATORY);
+	public static final RegistryObject<Item> CHEMISTRYBUCKET = REGISTRY.register("chemistrybucket", () -> new ChemistrybucketItem());
+	public static final RegistryObject<Item> CHEMISTRY_BUCKET_GLOWSTONE_ACID = REGISTRY.register("chemistry_bucket_glowstone_acid", () -> new ChemistryBucketGlowstoneAcidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

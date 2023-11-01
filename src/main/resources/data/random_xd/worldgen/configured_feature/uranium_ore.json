@@ -8,8 +8,17 @@
         "target": {
           "predicate_type": "blockstate_match",
           "block_state": {
-            "Name": "minecraft:blackstone"
+            "Name": "minecraft:cobbled_deepslate"
           }
+        },
+        "state": {
+          "Name": "random_xd:uranium_ore"
+        }
+      },
+      {
+        "target": {
+          "predicate_type": "tag_match",
+          "tag": "minecraft:stone"
         },
         "state": {
           "Name": "random_xd:uranium_ore"

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01 ",
+    "345",
+    " 78"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "1": {
+      "item": "minecraft:chain"
+    },
+    "3": {
+      "item": "minecraft:chain"
+    },
+    "4": {
+      "item": "random_xd:titanium_ingot"
+    },
+    "5": {
+      "item": "minecraft:chain"
+    },
+    "7": {
+      "item": "minecraft:chain"
+    },
+    "8": {
+      "item": "random_xd:titanium_block"
+    }
+  },
+  "result": {
+    "item": "random_xd:titanium_saw",
+    "count": 1
+  }
+}

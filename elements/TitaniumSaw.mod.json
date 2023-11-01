@@ -4,7 +4,7 @@
   "definition": {
     "toolType": "Axe",
     "renderType": 1,
-    "texture": "texturesaw",
+    "texture": "novii_proiekt_-_2023-10-27t122813.435",
     "customModelName": "saw:default",
     "name": "Titanium saw",
     "specialInfo": [],
@@ -18,7 +18,7 @@
     "damageVsEntity": 9.0,
     "usageCount": 250,
     "blocksAffected": [],
-    "hasGlow": false,
+    "hasGlow": true,
     "repairItems": [
       {
         "value": "CUSTOM:TitaniumIngot"

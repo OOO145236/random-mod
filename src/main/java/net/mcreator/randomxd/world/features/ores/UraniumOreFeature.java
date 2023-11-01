@@ -11,7 +11,7 @@ import net.minecraft.resources.ResourceKey;
 import java.util.Set;
 
 public class UraniumOreFeature extends OreFeature {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.NETHER);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 
 	public UraniumOreFeature() {
 		super(OreConfiguration.CODEC);
