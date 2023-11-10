@@ -9,9 +9,9 @@
     "name": "Titanium Sword",
     "specialInfo": [],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Splavtab"
     },
-    "harvestLevel": 2,
+    "harvestLevel": 3,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

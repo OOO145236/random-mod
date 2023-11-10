@@ -25,7 +25,7 @@ public class TitaniumAxeItem extends AxeItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {

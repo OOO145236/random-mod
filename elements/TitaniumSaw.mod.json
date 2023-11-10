@@ -9,7 +9,7 @@
     "name": "Titanium saw",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Splavtab"
     },
     "harvestLevel": 2,
     "efficiency": 6.0,
@@ -18,7 +18,7 @@
     "damageVsEntity": 9.0,
     "usageCount": 250,
     "blocksAffected": [],
-    "hasGlow": true,
+    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:TitaniumIngot"

@@ -9,9 +9,9 @@
     "name": "Titanium Pickaxe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Splavtab"
     },
-    "harvestLevel": 2,
+    "harvestLevel": 3,
     "efficiency": 6.0,
     "attackSpeed": 1.0,
     "enchantability": 14,

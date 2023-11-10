@@ -42,7 +42,7 @@ public class UraniumreactiveProcedure {
 				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 			if (entity instanceof Player _player) {
-				ItemStack _setstack = new ItemStack(RandomXdModItems.URANIUMINGOT.get());
+				ItemStack _setstack = new ItemStack(RandomXdModItems.URANIUMDUST.get());
 				_setstack.setCount(1);
 				ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 			}

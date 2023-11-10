@@ -10,7 +10,7 @@
     "name": "Raw Uranium Ore",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "MATERIALS"
+      "value": "CUSTOM:Splavtab"
     },
     "stackSize": 64,
     "enchantability": 0,

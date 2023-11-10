@@ -1,9 +1,6 @@
 
 package net.mcreator.randomxd.item;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
@@ -39,11 +36,5 @@ public class TitaniumSawItem extends AxeItem {
 				return Ingredient.of(new ItemStack(RandomXdModItems.TITANIUM_INGOT.get()));
 			}
 		}, 1, -3f, new Item.Properties());
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public boolean isFoil(ItemStack itemstack) {
-		return true;
 	}
 }

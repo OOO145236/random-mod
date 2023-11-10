@@ -11,11 +11,15 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.randomxd.block.UraniumOreBlock;
+import net.mcreator.randomxd.block.TunstenTrapdoorBlock;
 import net.mcreator.randomxd.block.TungstenoreBlock;
+import net.mcreator.randomxd.block.TungstendoorBlock;
+import net.mcreator.randomxd.block.TungstenblockBlock;
 import net.mcreator.randomxd.block.TitaniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumBlockBlock;
 import net.mcreator.randomxd.block.DeepslateTitaniumOreBlock;
 import net.mcreator.randomxd.block.DeeplateTungstenOreBlock;
+import net.mcreator.randomxd.block.CutTungstenBlock;
 import net.mcreator.randomxd.block.ChemicallaboratoryBlock;
 import net.mcreator.randomxd.RandomXdMod;
 
@@ -28,4 +32,8 @@ public class RandomXdModBlocks {
 	public static final RegistryObject<Block> CHEMICALLABORATORY = REGISTRY.register("chemicallaboratory", () -> new ChemicallaboratoryBlock());
 	public static final RegistryObject<Block> TUNGSTENORE = REGISTRY.register("tungstenore", () -> new TungstenoreBlock());
 	public static final RegistryObject<Block> DEEPLATE_TUNGSTEN_ORE = REGISTRY.register("deeplate_tungsten_ore", () -> new DeeplateTungstenOreBlock());
+	public static final RegistryObject<Block> TUNGSTENDOOR = REGISTRY.register("tungstendoor", () -> new TungstendoorBlock());
+	public static final RegistryObject<Block> TUNSTEN_TRAPDOOR = REGISTRY.register("tunsten_trapdoor", () -> new TunstenTrapdoorBlock());
+	public static final RegistryObject<Block> TUNGSTENBLOCK = REGISTRY.register("tungstenblock", () -> new TungstenblockBlock());
+	public static final RegistryObject<Block> CUT_TUNGSTEN = REGISTRY.register("cut_tungsten", () -> new CutTungstenBlock());
 }

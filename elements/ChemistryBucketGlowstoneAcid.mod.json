@@ -10,7 +10,7 @@
     "name": "Chemistry bucket",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Splavtab"
     },
     "stackSize": 64,
     "enchantability": 0,

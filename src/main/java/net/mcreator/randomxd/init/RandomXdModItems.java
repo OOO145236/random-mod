@@ -10,9 +10,13 @@ import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.DoubleHighBlockItem;
 import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.randomxd.item.UraniumingotItem;
+import net.mcreator.randomxd.item.UraniumdustItem;
+import net.mcreator.randomxd.item.TungsteningotItem;
+import net.mcreator.randomxd.item.TungstenRawOreItem;
 import net.mcreator.randomxd.item.TitaniumSwordItem;
 import net.mcreator.randomxd.item.TitaniumShovelItem;
 import net.mcreator.randomxd.item.TitaniumSawItem;
@@ -52,8 +56,19 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> CHEMISTRY_BUCKET_GLOWSTONE_ACID = REGISTRY.register("chemistry_bucket_glowstone_acid", () -> new ChemistryBucketGlowstoneAcidItem());
 	public static final RegistryObject<Item> TUNGSTENORE = block(RandomXdModBlocks.TUNGSTENORE);
 	public static final RegistryObject<Item> DEEPLATE_TUNGSTEN_ORE = block(RandomXdModBlocks.DEEPLATE_TUNGSTEN_ORE);
+	public static final RegistryObject<Item> TUNGSTENDOOR = doubleBlock(RandomXdModBlocks.TUNGSTENDOOR);
+	public static final RegistryObject<Item> TUNSTEN_TRAPDOOR = block(RandomXdModBlocks.TUNSTEN_TRAPDOOR);
+	public static final RegistryObject<Item> TUNGSTENINGOT = REGISTRY.register("tungsteningot", () -> new TungsteningotItem());
+	public static final RegistryObject<Item> TUNGSTEN_RAW_ORE = REGISTRY.register("tungsten_raw_ore", () -> new TungstenRawOreItem());
+	public static final RegistryObject<Item> TUNGSTENBLOCK = block(RandomXdModBlocks.TUNGSTENBLOCK);
+	public static final RegistryObject<Item> CUT_TUNGSTEN = block(RandomXdModBlocks.CUT_TUNGSTEN);
+	public static final RegistryObject<Item> URANIUMDUST = REGISTRY.register("uraniumdust", () -> new UraniumdustItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
+	}
+
+	private static RegistryObject<Item> doubleBlock(RegistryObject<Block> block) {
+		return REGISTRY.register(block.getId().getPath(), () -> new DoubleHighBlockItem(block.get(), new Item.Properties()));
 	}
 }

@@ -580,24 +580,156 @@
           "src/main/resources/assets/random_xd/models/item/deeplate_tungsten_ore.json"
         ]
       }
+    },
+    {
+      "name": "Tungstendoor",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstendoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/blockstates/tungstendoor.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_left.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_left_open.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_right_open.json",
+          "src/main/resources/assets/random_xd/models/item/tungstendoor.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_right.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right_open.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left_open.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstendoorBlock.java",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right.json"
+        ]
+      }
+    },
+    {
+      "name": "TunstenTrapdoor",
+      "type": "block",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tunsten_trapdoor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/blockstates/tunsten_trapdoor.json",
+          "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor.json",
+          "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor_open.json",
+          "src/main/resources/assets/random_xd/models/item/tunsten_trapdoor.json",
+          "src/main/java/net/mcreator/randomxd/block/TunstenTrapdoorBlock.java",
+          "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor_top.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungsteningot",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsteningot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TungsteningotItem.java",
+          "src/main/resources/assets/random_xd/models/item/tungsteningot.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenRawOre",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_raw_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TungstenRawOreItem.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_raw_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "Tungstenblock",
+      "type": "block",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungstenblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/blockstates/tungstenblock.json",
+          "src/main/resources/assets/random_xd/models/block/tungstenblock.json",
+          "src/main/resources/assets/random_xd/models/item/tungstenblock.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstenblockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "CutTungsten",
+      "type": "block",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_tungsten",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/CutTungstenBlock.java",
+          "src/main/resources/assets/random_xd/models/item/cut_tungsten.json",
+          "src/main/resources/assets/random_xd/models/block/cut_tungsten.json",
+          "src/main/resources/assets/random_xd/blockstates/cut_tungsten.json"
+        ]
+      }
+    },
+    {
+      "name": "Splavtab",
+      "type": "tab",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "splavtab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Uraniumdust",
+      "type": "item",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumdust",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/uraniumdust.json",
+          "src/main/java/net/mcreator/randomxd/item/UraniumdustItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.random_xd.titanium_block": "Титановый блок",
       "advancements.titanium_work.title": "Титаниеская работа!",
+      "block.random_xd.titanium_block": "Титановый блок",
+      "block.random_xd.tungstenblock": "Tungstenblock",
       "item.random_xd.titanium_armor_leggings": "Титановый поножи",
+      "item.random_xd.tungsteningot": "Tungsteningot",
+      "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
       "block.random_xd.tungstenore": "Tungstenore",
+      "block.random_xd.tungstendoor": "Tungstendoor",
       "item.random_xd.titanium_hoe": "Титановая Мотыга",
+      "item.random_xd.uraniumdust": "Uranium dust",
       "block.random_xd.titanium_ore": "Титановая Руда",
-      "item.random_xd.titanium_armor_chestplate": "титановый Нагрудник",
       "advancements.uranium.title": "URAAAAAANIUM!",
+      "item.random_xd.titanium_armor_chestplate": "титановый Нагрудник",
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
       "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
+      "item.random_xd.tungsten_raw_ore": "Tungsten Raw Ore",
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_saw": "Titanium saw",
@@ -606,7 +738,9 @@
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.uranium_ore": "Урановая Руда",
       "item.random_xd.titanium_pickaxe": "Титаноая кирка",
+      "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
       "item.random_xd.titanium_armor_boots": "Титановые ботинки",
+      "block.random_xd.cut_tungsten": "Cut Tungsten",
       "item.random_xd.titanium_ingot": "Титановый Слиток",
       "block.random_xd.deepslate_titanium_ore": "Titanium Ore",
       "block.random_xd.chemicallaboratory": "Chemical laboratory",
@@ -615,18 +749,24 @@
       "item.random_xd.titanium_axe": "Titanium Axe"
     },
     "en_us": {
-      "advancements.titanium_work.title": "Titanic work!",
       "block.random_xd.titanium_block": "Block of Titanium",
+      "advancements.titanium_work.title": "Titanic work!",
+      "block.random_xd.tungstenblock": "Tungstenblock",
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
+      "item.random_xd.tungsteningot": "Tungsteningot",
+      "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
       "block.random_xd.tungstenore": "Tungstenore",
+      "block.random_xd.tungstendoor": "Tungstendoor",
       "item.random_xd.titanium_hoe": "Titanium Hoe",
+      "item.random_xd.uraniumdust": "Uranium dust",
       "block.random_xd.titanium_ore": "Titanium Ore",
-      "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
       "advancements.uranium.title": "URAAAAAANIUM!",
+      "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
       "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
+      "item.random_xd.tungsten_raw_ore": "Tungsten Raw Ore",
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_saw": "Titanium saw",
@@ -635,7 +775,9 @@
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.uranium_ore": "Uranium Ore",
       "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
+      "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
+      "block.random_xd.cut_tungsten": "Cut Tungsten",
       "item.random_xd.titanium_ingot": "Titanium",
       "block.random_xd.deepslate_titanium_ore": "Titanium Ore",
       "block.random_xd.chemicallaboratory": "Chemical laboratory",
@@ -646,7 +788,12 @@
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "repices",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "random_xd",

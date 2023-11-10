@@ -25,7 +25,7 @@ public class TitaniumShovelItem extends ShovelItem {
 			}
 
 			public int getLevel() {
-				return 2;
+				return 3;
 			}
 
 			public int getEnchantmentValue() {

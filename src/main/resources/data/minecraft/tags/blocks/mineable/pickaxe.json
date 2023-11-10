@@ -5,6 +5,8 @@
     "random_xd:titanium_ore",
     "random_xd:deepslate_titanium_ore",
     "random_xd:uranium_ore",
-    "random_xd:chemicallaboratory"
+    "random_xd:chemicallaboratory",
+    "random_xd:tungstendoor",
+    "random_xd:tunsten_trapdoor"
   ]
 }

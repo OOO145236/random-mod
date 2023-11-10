@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "netherite_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:Splavtab"
     },
     "armorTextureFile": "titanium__",
     "helmetName": "Titanium Helmet",
