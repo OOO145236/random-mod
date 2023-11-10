@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_xd:block/blackstone_top",
+    "up": "random_xd:block/blackstone_top",
+    "north": "random_xd:block/blackstone_top_1",
+    "east": "random_xd:block/blackstone_top",
+    "south": "random_xd:block/blackstone_top",
+    "west": "random_xd:block/blackstone_top",
+    "particle": "random_xd:block/blackstone_top"
+  },
+  "render_type": "solid"
+}

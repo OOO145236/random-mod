@@ -706,6 +706,22 @@
           "src/main/java/net/mcreator/randomxd/item/UraniumdustItem.java"
         ]
       }
+    },
+    {
+      "name": "Exoatle",
+      "type": "block",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "exoatle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/exoatle.json",
+          "src/main/java/net/mcreator/randomxd/block/ExoatleBlock.java",
+          "src/main/resources/assets/random_xd/models/block/exoatle.json",
+          "src/main/resources/assets/random_xd/blockstates/exoatle.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -718,6 +734,7 @@
       "item.random_xd.titanium_armor_leggings": "Титановый поножи",
       "item.random_xd.tungsteningot": "Tungsteningot",
       "item_group.random_xd.splavtab": "Splav`s metalls",
+      "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
       "block.random_xd.tungstenore": "Tungstenore",
@@ -755,6 +772,7 @@
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
       "item.random_xd.tungsteningot": "Tungsteningot",
       "item_group.random_xd.splavtab": "Splav`s metalls",
+      "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
       "block.random_xd.tungstenore": "Tungstenore",

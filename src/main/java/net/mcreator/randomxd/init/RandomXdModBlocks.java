@@ -17,6 +17,7 @@ import net.mcreator.randomxd.block.TungstendoorBlock;
 import net.mcreator.randomxd.block.TungstenblockBlock;
 import net.mcreator.randomxd.block.TitaniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumBlockBlock;
+import net.mcreator.randomxd.block.ExoatleBlock;
 import net.mcreator.randomxd.block.DeepslateTitaniumOreBlock;
 import net.mcreator.randomxd.block.DeeplateTungstenOreBlock;
 import net.mcreator.randomxd.block.CutTungstenBlock;
@@ -36,4 +37,5 @@ public class RandomXdModBlocks {
 	public static final RegistryObject<Block> TUNSTEN_TRAPDOOR = REGISTRY.register("tunsten_trapdoor", () -> new TunstenTrapdoorBlock());
 	public static final RegistryObject<Block> TUNGSTENBLOCK = REGISTRY.register("tungstenblock", () -> new TungstenblockBlock());
 	public static final RegistryObject<Block> CUT_TUNGSTEN = REGISTRY.register("cut_tungsten", () -> new CutTungstenBlock());
+	public static final RegistryObject<Block> EXOATLE = REGISTRY.register("exoatle", () -> new ExoatleBlock());
 }
