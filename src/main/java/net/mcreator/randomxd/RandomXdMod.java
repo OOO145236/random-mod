@@ -30,7 +30,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.randomxd.init.RandomXdModTabs;
-import net.mcreator.randomxd.init.RandomXdModMenus;
 import net.mcreator.randomxd.init.RandomXdModItems;
 import net.mcreator.randomxd.init.RandomXdModFeatures;
 import net.mcreator.randomxd.init.RandomXdModBlocks;
@@ -60,7 +59,6 @@ public class RandomXdMod {
 		RandomXdModTabs.REGISTRY.register(bus);
 		RandomXdModFeatures.REGISTRY.register(bus);
 
-		RandomXdModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

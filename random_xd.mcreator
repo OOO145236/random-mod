@@ -464,20 +464,6 @@
       }
     },
     {
-      "name": "Labgui",
-      "type": "gui",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "labgui",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/randomxd/client/gui/LabguiScreen.java",
-          "src/main/java/net/mcreator/randomxd/world/inventory/LabguiMenu.java"
-        ]
-      }
-    },
-    {
       "name": "Chemistrybucket",
       "type": "item",
       "sortid": 36,
@@ -532,33 +518,66 @@
       }
     },
     {
-      "name": "ChemicallaboratoryUpdateTick",
-      "type": "procedure",
-      "sortid": 41,
+      "name": "Tungstenore",
+      "type": "block",
+      "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "chemicallaboratory_update_tick",
+      "registry_name": "tungstenore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/procedures/ChemicallaboratoryUpdateTickProcedure.java"
+          "src/main/resources/assets/random_xd/blockstates/tungstenore.json",
+          "src/main/resources/assets/random_xd/models/block/tungstenore.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstenoreBlock.java",
+          "src/main/resources/assets/random_xd/models/item/tungstenore.json"
+        ]
+      }
+    },
+    {
+      "name": "Uraniumreactive",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uraniumreactive",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/UraniumreactiveProcedure.java"
         ],
         "dependencies": [
           {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
+            "name": "entity",
+            "type": "entity"
           }
+        ]
+      }
+    },
+    {
+      "name": "GlowstoneAcidRepice",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glowstone_acid_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/glowstone_acid_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "DeeplateTungstenOre",
+      "type": "block",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deeplate_tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/DeeplateTungstenOreBlock.java",
+          "src/main/resources/assets/random_xd/models/block/deeplate_tungsten_ore.json",
+          "src/main/resources/assets/random_xd/blockstates/deeplate_tungsten_ore.json",
+          "src/main/resources/assets/random_xd/models/item/deeplate_tungsten_ore.json"
         ]
       }
     }
@@ -572,11 +591,13 @@
       "item.random_xd.titanium_armor_leggings": "Титановый поножи",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
+      "block.random_xd.tungstenore": "Tungstenore",
       "item.random_xd.titanium_hoe": "Титановая Мотыга",
       "block.random_xd.titanium_ore": "Титановая Руда",
       "item.random_xd.titanium_armor_chestplate": "титановый Нагрудник",
       "advancements.uranium.title": "URAAAAAANIUM!",
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
+      "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_saw": "Titanium saw",
@@ -599,11 +620,13 @@
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
+      "block.random_xd.tungstenore": "Tungstenore",
       "item.random_xd.titanium_hoe": "Titanium Hoe",
       "block.random_xd.titanium_ore": "Titanium Ore",
       "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
       "advancements.uranium.title": "URAAAAAANIUM!",
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
+      "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_saw": "Titanium saw",

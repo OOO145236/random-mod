@@ -50,6 +50,8 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> CHEMICALLABORATORY = block(RandomXdModBlocks.CHEMICALLABORATORY);
 	public static final RegistryObject<Item> CHEMISTRYBUCKET = REGISTRY.register("chemistrybucket", () -> new ChemistrybucketItem());
 	public static final RegistryObject<Item> CHEMISTRY_BUCKET_GLOWSTONE_ACID = REGISTRY.register("chemistry_bucket_glowstone_acid", () -> new ChemistryBucketGlowstoneAcidItem());
+	public static final RegistryObject<Item> TUNGSTENORE = block(RandomXdModBlocks.TUNGSTENORE);
+	public static final RegistryObject<Item> DEEPLATE_TUNGSTEN_ORE = block(RandomXdModBlocks.DEEPLATE_TUNGSTEN_ORE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
