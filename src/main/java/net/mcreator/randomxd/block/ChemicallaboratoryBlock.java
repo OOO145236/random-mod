@@ -129,7 +129,7 @@ public class ChemicallaboratoryBlock extends Block implements SimpleWaterloggedB
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		UraniumreactiveProcedure.execute(entity);
+		UraniumreactiveProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -548,6 +548,22 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       }
@@ -894,10 +910,10 @@
       "registry_name": "raw_tungsten_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/block/RawTungstenBlockBlock.java",
-          "src/main/resources/assets/random_xd/models/block/raw_tungsten_block.json",
           "src/main/resources/assets/random_xd/blockstates/raw_tungsten_block.json",
-          "src/main/resources/assets/random_xd/models/item/raw_tungsten_block.json"
+          "src/main/resources/assets/random_xd/models/block/raw_tungsten_block.json",
+          "src/main/resources/assets/random_xd/models/item/raw_tungsten_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawTungstenBlockBlock.java"
         ]
       }
     },
