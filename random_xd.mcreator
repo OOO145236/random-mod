@@ -722,6 +722,19 @@
           "src/main/resources/assets/random_xd/blockstates/exoatle.json"
         ]
       }
+    },
+    {
+      "name": "Uransmelt",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uransmelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uransmelt.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
