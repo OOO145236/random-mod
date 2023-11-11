@@ -68,6 +68,7 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> RAW_TITANIUM_BLOCK = block(RandomXdModBlocks.RAW_TITANIUM_BLOCK);
 	public static final RegistryObject<Item> RAW_TUNGSTEN_BLOCK = block(RandomXdModBlocks.RAW_TUNGSTEN_BLOCK);
 	public static final RegistryObject<Item> TUNGSTEN_PRESSURE_PLATE = block(RandomXdModBlocks.TUNGSTEN_PRESSURE_PLATE);
+	public static final RegistryObject<Item> TUNGSTEN_GLASS_BLOCK = block(RandomXdModBlocks.TUNGSTEN_GLASS_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

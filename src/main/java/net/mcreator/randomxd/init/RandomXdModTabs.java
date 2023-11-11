@@ -53,6 +53,7 @@ public class RandomXdModTabs {
 				tabData.accept(RandomXdModBlocks.RAW_TITANIUM_BLOCK.get().asItem());
 				tabData.accept(RandomXdModBlocks.RAW_TUNGSTEN_BLOCK.get().asItem());
 				tabData.accept(RandomXdModBlocks.TUNGSTEN_PRESSURE_PLATE.get().asItem());
+				tabData.accept(RandomXdModBlocks.TUNGSTEN_GLASS_BLOCK.get().asItem());
 			})
 
 					.build());

@@ -1,42 +1,37 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "012",
-    "345",
-    "678"
-  ],
-  "key": {
-    "0": {
-      "item": "random_xd:tungsteningot"
-    },
-    "1": {
+  "ingredients": [
+    {
       "item": "minecraft:glass"
     },
-    "2": {
-      "item": "random_xd:tungsteningot"
-    },
-    "3": {
+    {
       "item": "minecraft:glass"
     },
-    "4": {
-      "item": "random_xd:tungsteningot"
-    },
-    "5": {
+    {
       "item": "minecraft:glass"
     },
-    "6": {
-      "item": "random_xd:tungsteningot"
-    },
-    "7": {
+    {
       "item": "minecraft:glass"
     },
-    "8": {
+    {
       "item": "random_xd:tungsteningot"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:glass"
     }
-  },
+  ],
   "result": {
-    "item": "random_xd:exoatle",
-    "count": 9
+    "item": "random_xd:tungsten_glass_block",
+    "count": 8
   }
 }

@@ -959,6 +959,22 @@
           "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json"
         ]
       }
+    },
+    {
+      "name": "TungstenGlassBlock",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_glass_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/tungsten_glass_block.json",
+          "src/main/resources/assets/random_xd/blockstates/tungsten_glass_block.json",
+          "src/main/resources/assets/random_xd/models/block/tungsten_glass_block.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstenGlassBlockBlock.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -996,6 +1012,7 @@
       "block.random_xd.uranium_ore": "Ураноносный Глубиносланец",
       "item.random_xd.titanium_pickaxe": "Титаноая кирка",
       "block.random_xd.tunsten_trapdoor": "Вольфрамовый Люк",
+      "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
       "item.random_xd.titanium_armor_boots": "Титановые Ботинки",
       "block.random_xd.cut_tungsten": "Резной Вольфрамовый Блок",
       "item.random_xd.titanium_ingot": "Титановый Слиток",
@@ -1038,6 +1055,7 @@
       "block.random_xd.uranium_ore": "Uranium Ore",
       "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
       "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
+      "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
       "block.random_xd.cut_tungsten": "Cut Tungsten",
       "item.random_xd.titanium_ingot": "Titanium Ingot",

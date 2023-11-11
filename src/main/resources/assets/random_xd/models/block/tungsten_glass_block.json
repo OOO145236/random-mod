@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "random_xd:block/wolfram_17",
+    "up": "random_xd:block/wolfram_17",
+    "north": "random_xd:block/wolfram_17",
+    "east": "random_xd:block/wolfram_17",
+    "south": "random_xd:block/wolfram_17",
+    "west": "random_xd:block/wolfram_17",
+    "particle": "random_xd:block/wolfram_17"
+  },
+  "render_type": "solid"
+}
