@@ -826,6 +826,64 @@
           "src/main/resources/data/random_xd/recipes/dver.json"
         ]
       }
+    },
+    {
+      "name": "RawUraniumBlock",
+      "type": "block",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
+          "src/main/resources/assets/random_xd/models/item/raw_uranium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTitaniumBlock",
+      "type": "block",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/blockstates/raw_titanium_block.json",
+          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json"
+        ]
+      }
+    },
+    {
+      "name": "RawUraniumBlockRepice",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/raw_uranium_block_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTitaniumBlockRepice",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titanium_block_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/raw_titanium_block_repice.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -854,7 +912,9 @@
       "item.random_xd.titanium_sword": "Титановый меч",
       "advancements.titanium_work.descr": "Сделайте полный комплект титановой брони",
       "item.random_xd.titanium_saw": "Бензопила",
+      "block.random_xd.raw_uranium_block": "Raw Uranium Block",
       "item.random_xd.titanium_shovel": "Титановая лопата",
+      "block.random_xd.raw_titanium_block": "Raw Titanium Block",
       "item.random_xd.raw_titanium_ore": "Сырая Титановая Руда",
       "advancements.uranium.descr": "Добудьте урановую руду",
       "block.random_xd.uranium_ore": "Ураноносный Глубиносланец",
@@ -892,7 +952,9 @@
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_saw": "Titanium saw",
+      "block.random_xd.raw_uranium_block": "Raw Uranium Block",
       "item.random_xd.titanium_shovel": "Titanium Shovel",
+      "block.random_xd.raw_titanium_block": "Raw Titanium Block",
       "item.random_xd.raw_titanium_ore": "Raw Titanium Ore",
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.uranium_ore": "Uranium Ore",

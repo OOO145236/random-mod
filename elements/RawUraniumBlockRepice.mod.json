@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      },
+      {
+        "value": "CUSTOM:RawUraniumOre"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:RawUraniumBlock"
+    },
+    "name": "raw_uranium_block_repice",
+    "namespace": "mod"
+  }
+}

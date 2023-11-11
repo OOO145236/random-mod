@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "1": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "2": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "3": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "4": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "5": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "6": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "7": {
+      "item": "random_xd:raw_titanium_ore"
+    },
+    "8": {
+      "item": "random_xd:raw_titanium_ore"
+    }
+  },
+  "result": {
+    "item": "random_xd:raw_titanium_block",
+    "count": 1
+  }
+}
