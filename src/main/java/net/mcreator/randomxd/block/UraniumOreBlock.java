@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class UraniumOreBlock extends Block {
 	public UraniumOreBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(1f, 10f));
 	}
 
 	@Override
