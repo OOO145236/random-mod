@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class TungstenGlassBlockBlock extends Block {
 	public TungstenGlassBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 1000f));
 	}
 
 	@Override
