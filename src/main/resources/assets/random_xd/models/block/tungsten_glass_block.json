@@ -9,5 +9,5 @@
     "west": "random_xd:block/wolfram_17",
     "particle": "random_xd:block/wolfram_17"
   },
-  "render_type": "solid"
+  "render_type": "cutout"
 }
