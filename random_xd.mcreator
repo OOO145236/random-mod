@@ -929,6 +929,19 @@
           "src/main/resources/data/random_xd/recipes/tytyncraft.json"
         ]
       }
+    },
+    {
+      "name": "TungstenGlass",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_glass",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tungsten_glass.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
