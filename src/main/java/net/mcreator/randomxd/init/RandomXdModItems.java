@@ -17,10 +17,12 @@ import net.mcreator.randomxd.item.UraniumingotItem;
 import net.mcreator.randomxd.item.UraniumdustItem;
 import net.mcreator.randomxd.item.TungsteningotItem;
 import net.mcreator.randomxd.item.TungstenRawOreItem;
+import net.mcreator.randomxd.item.TungstenNuggetItem;
 import net.mcreator.randomxd.item.TitaniumSwordItem;
 import net.mcreator.randomxd.item.TitaniumShovelItem;
 import net.mcreator.randomxd.item.TitaniumSawItem;
 import net.mcreator.randomxd.item.TitaniumPickaxeItem;
+import net.mcreator.randomxd.item.TitaniumNuggetItem;
 import net.mcreator.randomxd.item.TitaniumIngotItem;
 import net.mcreator.randomxd.item.TitaniumHoeItem;
 import net.mcreator.randomxd.item.TitaniumAxeItem;
@@ -69,6 +71,8 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> RAW_TUNGSTEN_BLOCK = block(RandomXdModBlocks.RAW_TUNGSTEN_BLOCK);
 	public static final RegistryObject<Item> TUNGSTEN_PRESSURE_PLATE = block(RandomXdModBlocks.TUNGSTEN_PRESSURE_PLATE);
 	public static final RegistryObject<Item> TUNGSTEN_GLASS_BLOCK = block(RandomXdModBlocks.TUNGSTEN_GLASS_BLOCK);
+	public static final RegistryObject<Item> TUNGSTEN_NUGGET = REGISTRY.register("tungsten_nugget", () -> new TungstenNuggetItem());
+	public static final RegistryObject<Item> TITANIUM_NUGGET = REGISTRY.register("titanium_nugget", () -> new TitaniumNuggetItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

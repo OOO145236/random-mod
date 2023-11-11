@@ -1027,6 +1027,34 @@
           "src/main/resources/data/random_xd/recipes/raw_tungsten_block_uncraft.json"
         ]
       }
+    },
+    {
+      "name": "TungstenNugget",
+      "type": "item",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TungstenNuggetItem.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_nugget.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumNugget",
+      "type": "item",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/TitaniumNuggetItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_nugget.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1065,6 +1093,7 @@
       "item.random_xd.titanium_pickaxe": "Титаноая кирка",
       "block.random_xd.tunsten_trapdoor": "Вольфрамовый Люк",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+      "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Титановые Ботинки",
       "block.random_xd.cut_tungsten": "Резной Вольфрамовый Блок",
       "item.random_xd.titanium_ingot": "Титановый Слиток",
@@ -1073,7 +1102,8 @@
       "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
       "item.random_xd.uraniumingot": "Слиток Урана",
       "item.random_xd.raw_uranium_ore": "Необработаная Урановая Руда",
-      "item.random_xd.titanium_axe": "Титановый Топор"
+      "item.random_xd.titanium_axe": "Титановый Топор",
+      "item.random_xd.titanium_nugget": "Titanium Nugget"
     },
     "en_us": {
       "block.random_xd.titanium_block": "Block of Titanium",
@@ -1108,6 +1138,7 @@
       "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
       "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+      "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
       "block.random_xd.cut_tungsten": "Cut Tungsten",
       "item.random_xd.titanium_ingot": "Titanium Ingot",
@@ -1116,7 +1147,8 @@
       "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
       "item.random_xd.uraniumingot": "Uraniumingot",
       "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
-      "item.random_xd.titanium_axe": "Titanium Axe"
+      "item.random_xd.titanium_axe": "Titanium Axe",
+      "item.random_xd.titanium_nugget": "Titanium Nugget"
     }
   },
   "foldersRoot": {

@@ -31,6 +31,7 @@
   "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
   "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
   "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+  "item.random_xd.tungsten_nugget": "Tungsten Nugget",
   "item.random_xd.titanium_armor_boots": "Titanium Boots",
   "block.random_xd.cut_tungsten": "Cut Tungsten",
   "item.random_xd.titanium_ingot": "Titanium Ingot",
@@ -39,5 +40,6 @@
   "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
   "item.random_xd.uraniumingot": "Uraniumingot",
   "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
-  "item.random_xd.titanium_axe": "Titanium Axe"
+  "item.random_xd.titanium_axe": "Titanium Axe",
+  "item.random_xd.titanium_nugget": "Titanium Nugget"
 }
