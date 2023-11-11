@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "random_xd:block/wolfram_7"
+  },
+  "render_type": "solid"
+}

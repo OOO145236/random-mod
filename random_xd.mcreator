@@ -942,6 +942,23 @@
           "src/main/resources/data/random_xd/recipes/tungsten_glass.json"
         ]
       }
+    },
+    {
+      "name": "TungstenPressurePlate",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/TungstenPressurePlateBlock.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_pressure_plate.json",
+          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate_down.json",
+          "src/main/resources/assets/random_xd/blockstates/tungsten_pressure_plate.json",
+          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -973,6 +990,7 @@
       "block.random_xd.raw_uranium_block": "Сырой Уран",
       "item.random_xd.titanium_shovel": "Титановая лопата",
       "block.random_xd.raw_titanium_block": "Raw Titanium Block",
+      "block.random_xd.tungsten_pressure_plate": "Tungsten Pressure Plate",
       "item.random_xd.raw_titanium_ore": "Сырая Титановая Руда",
       "advancements.uranium.descr": "Добудьте урановую руду",
       "block.random_xd.uranium_ore": "Ураноносный Глубиносланец",
@@ -1014,6 +1032,7 @@
       "block.random_xd.raw_uranium_block": "Raw Uranium Block",
       "item.random_xd.titanium_shovel": "Titanium Shovel",
       "block.random_xd.raw_titanium_block": "Raw Titanium Block",
+      "block.random_xd.tungsten_pressure_plate": "Tungsten Pressure Plate",
       "item.random_xd.raw_titanium_ore": "Raw Titanium Ore",
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.uranium_ore": "Uranium Ore",

@@ -15,6 +15,7 @@ import net.mcreator.randomxd.block.TunstenTrapdoorBlock;
 import net.mcreator.randomxd.block.TungstenoreBlock;
 import net.mcreator.randomxd.block.TungstendoorBlock;
 import net.mcreator.randomxd.block.TungstenblockBlock;
+import net.mcreator.randomxd.block.TungstenPressurePlateBlock;
 import net.mcreator.randomxd.block.TitaniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumBlockBlock;
 import net.mcreator.randomxd.block.RawUraniumBlockBlock;
@@ -44,4 +45,5 @@ public class RandomXdModBlocks {
 	public static final RegistryObject<Block> RAW_URANIUM_BLOCK = REGISTRY.register("raw_uranium_block", () -> new RawUraniumBlockBlock());
 	public static final RegistryObject<Block> RAW_TITANIUM_BLOCK = REGISTRY.register("raw_titanium_block", () -> new RawTitaniumBlockBlock());
 	public static final RegistryObject<Block> RAW_TUNGSTEN_BLOCK = REGISTRY.register("raw_tungsten_block", () -> new RawTungstenBlockBlock());
+	public static final RegistryObject<Block> TUNGSTEN_PRESSURE_PLATE = REGISTRY.register("tungsten_pressure_plate", () -> new TungstenPressurePlateBlock());
 }
