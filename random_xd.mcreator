@@ -800,6 +800,19 @@
           "src/main/resources/data/random_xd/recipes/uranblala.json"
         ]
       }
+    },
+    {
+      "name": "Luk",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/luk.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
