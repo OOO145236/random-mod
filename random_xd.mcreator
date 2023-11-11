@@ -750,15 +750,15 @@
       }
     },
     {
-      "name": "TitanoumOreBlasting",
+      "name": "TungstenBlockCreaft",
       "type": "recipe",
-      "sortid": 57,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanoum_ore_blasting",
+      "registry_name": "tungsten_block_creaft",
       "metadata": {
         "files": [
-          "src/main/resources/data/random_xd/recipes/titanoum_ore_blasting.json"
+          "src/main/resources/data/random_xd/recipes/tungsten_block_creaft.json"
         ]
       }
     },
@@ -776,15 +776,28 @@
       }
     },
     {
-      "name": "TungstenBlockCreaft",
+      "name": "TitanoumOreBlasting",
       "type": "recipe",
-      "sortid": 59,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungsten_block_creaft",
+      "registry_name": "titanoum_ore_blasting",
       "metadata": {
         "files": [
-          "src/main/resources/data/random_xd/recipes/tungsten_block_creaft.json"
+          "src/main/resources/data/random_xd/recipes/titanoum_ore_blasting.json"
+        ]
+      }
+    },
+    {
+      "name": "Uranblala",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranblala",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uranblala.json"
         ]
       }
     }
