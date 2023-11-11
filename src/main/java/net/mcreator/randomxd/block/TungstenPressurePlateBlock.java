@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class TungstenPressurePlateBlock extends PressurePlateBlock {
 	public TungstenPressurePlateBlock() {
-		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 1000f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape().forceSolidOn(),
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.COPPER).strength(1f, 1000f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape().forceSolidOn(),
 				BlockSetType.IRON);
 	}
 
