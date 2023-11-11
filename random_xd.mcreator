@@ -969,10 +969,10 @@
       "registry_name": "tungsten_glass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/tungsten_glass_block.json",
           "src/main/resources/assets/random_xd/blockstates/tungsten_glass_block.json",
-          "src/main/resources/assets/random_xd/models/block/tungsten_glass_block.json",
-          "src/main/java/net/mcreator/randomxd/block/TungstenGlassBlockBlock.java"
+          "src/main/java/net/mcreator/randomxd/block/TungstenGlassBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_glass_block.json",
+          "src/main/resources/assets/random_xd/models/block/tungsten_glass_block.json"
         ]
       }
     },
