@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class TungstendoorBlock extends DoorBlock {
 	public TungstendoorBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1f, 1000f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.STONE);
+		super(BlockBehaviour.Properties.of().sound(SoundType.COPPER).strength(1f, 1000f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.IRON);
 	}
 
 	@Override
