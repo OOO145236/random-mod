@@ -717,9 +717,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/random_xd/models/item/exoatle.json",
+          "src/main/resources/assets/random_xd/blockstates/exoatle.json",
           "src/main/java/net/mcreator/randomxd/block/ExoatleBlock.java",
-          "src/main/resources/assets/random_xd/models/block/exoatle.json",
-          "src/main/resources/assets/random_xd/blockstates/exoatle.json"
+          "src/main/resources/assets/random_xd/models/block/exoatle.json"
         ]
       }
     }
