@@ -748,6 +748,19 @@
           "src/main/resources/data/random_xd/recipes/uran_smelt_2.json"
         ]
       }
+    },
+    {
+      "name": "Uranblala",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranblala",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uranblala.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
