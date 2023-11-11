@@ -748,6 +748,19 @@
           "src/main/resources/data/random_xd/recipes/uran_smelt_2.json"
         ]
       }
+    },
+    {
+      "name": "TitaniumoreBlastSmelting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titaniumore_blast_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titaniumore_blast_smelting.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

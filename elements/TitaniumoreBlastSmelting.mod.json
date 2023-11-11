@@ -1,0 +1,22 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.7,
+    "cookingTime": 100,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:RawTitaniumOre"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:TitaniumIngot"
+    },
+    "name": "titaniumore_blast_smelting",
+    "namespace": "mod"
+  }
+}
