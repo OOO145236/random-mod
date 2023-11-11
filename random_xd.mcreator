@@ -952,11 +952,11 @@
       "registry_name": "tungsten_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/block/TungstenPressurePlateBlock.java",
-          "src/main/resources/assets/random_xd/models/item/tungsten_pressure_plate.json",
           "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate_down.json",
+          "src/main/resources/assets/random_xd/models/item/tungsten_pressure_plate.json",
           "src/main/resources/assets/random_xd/blockstates/tungsten_pressure_plate.json",
-          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json"
+          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstenPressurePlateBlock.java"
         ]
       }
     },
@@ -986,6 +986,45 @@
       "metadata": {
         "files": [
           "src/main/resources/data/random_xd/recipes/tungsten_pressure_plate_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "RawUraniumBlockUncraft",
+      "type": "recipe",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_uranium_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/raw_uranium_block_uncraft.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTitaniumBlockUncraft",
+      "type": "recipe",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_titanium_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/raw_titanium_block_uncraft.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTungstenBlockUncraft",
+      "type": "recipe",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block_uncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/raw_tungsten_block_uncraft.json"
         ]
       }
     }
