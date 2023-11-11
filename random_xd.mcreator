@@ -735,6 +735,19 @@
           "src/main/resources/data/random_xd/recipes/uransmelt.json"
         ]
       }
+    },
+    {
+      "name": "UranSmelt2",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uran_smelt_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uran_smelt_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],

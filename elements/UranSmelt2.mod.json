@@ -11,12 +11,12 @@
     "craftingBookCategory": "MISC",
     "recipeShapeless": false,
     "blastingInputStack": {
-      "value": "CUSTOM:RawUraniumOre"
+      "value": "CUSTOM:Uraniumdust"
     },
     "blastingReturnStack": {
       "value": "CUSTOM:Uraniumingot"
     },
-    "name": "uransmelt",
+    "name": "uran_smelt_2",
     "namespace": "mod"
   }
 }
