@@ -51,6 +51,7 @@ public class RandomXdModTabs {
 				tabData.accept(RandomXdModBlocks.EXOATLE.get().asItem());
 				tabData.accept(RandomXdModBlocks.RAW_URANIUM_BLOCK.get().asItem());
 				tabData.accept(RandomXdModBlocks.RAW_TITANIUM_BLOCK.get().asItem());
+				tabData.accept(RandomXdModBlocks.RAW_TUNGSTEN_BLOCK.get().asItem());
 			})
 
 					.build());

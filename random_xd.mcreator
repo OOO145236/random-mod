@@ -836,10 +836,10 @@
       "registry_name": "raw_uranium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
           "src/main/resources/assets/random_xd/models/item/raw_uranium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java",
-          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json"
+          "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
+          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java"
         ]
       }
     },
@@ -852,10 +852,10 @@
       "registry_name": "raw_titanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json",
           "src/main/resources/assets/random_xd/blockstates/raw_titanium_block.json",
-          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json"
+          "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java"
         ]
       }
     },
@@ -882,6 +882,35 @@
       "metadata": {
         "files": [
           "src/main/resources/data/random_xd/recipes/raw_titanium_block_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "RawTungstenBlock",
+      "type": "block",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/block/RawTungstenBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/block/raw_tungsten_block.json",
+          "src/main/resources/assets/random_xd/blockstates/raw_tungsten_block.json",
+          "src/main/resources/assets/random_xd/models/item/raw_tungsten_block.json"
+        ]
+      }
+    },
+    {
+      "name": "Tytyncraft",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tytyncraft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tytyncraft.json"
         ]
       }
     }
@@ -925,6 +954,7 @@
       "item.random_xd.titanium_ingot": "Титановый Слиток",
       "block.random_xd.deepslate_titanium_ore": "Титаноносный Глубиносланец",
       "block.random_xd.chemicallaboratory": "Химическая лаборатория",
+      "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
       "item.random_xd.uraniumingot": "Слиток Урана",
       "item.random_xd.raw_uranium_ore": "Необработаная Урановая Руда",
       "item.random_xd.titanium_axe": "Титановый Топор"
@@ -965,6 +995,7 @@
       "item.random_xd.titanium_ingot": "Titanium Ingot",
       "block.random_xd.deepslate_titanium_ore": "Deepslate Titanium Ore",
       "block.random_xd.chemicallaboratory": "Chemical laboratory",
+      "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
       "item.random_xd.uraniumingot": "Uraniumingot",
       "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
       "item.random_xd.titanium_axe": "Titanium Axe"
