@@ -748,6 +748,45 @@
           "src/main/resources/data/random_xd/recipes/uran_smelt_2.json"
         ]
       }
+    },
+    {
+      "name": "TitanoumOreBlasting",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanoum_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanoum_ore_blasting.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenOreBlasting",
+      "type": "recipe",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tungsten_ore_blasting.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenBlockCreaft",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_creaft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tungsten_block_creaft.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
