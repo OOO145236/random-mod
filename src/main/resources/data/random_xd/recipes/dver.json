@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:tungsteningot"
+    },
+    "1": {
+      "item": "random_xd:tungsteningot"
+    },
+    "2": {
+      "item": "random_xd:tungsteningot"
+    },
+    "3": {
+      "item": "random_xd:tungsteningot"
+    },
+    "4": {
+      "item": "random_xd:tungsteningot"
+    },
+    "5": {
+      "item": "random_xd:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "random_xd:tungstendoor",
+    "count": 3
+  }
+}

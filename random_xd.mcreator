@@ -813,6 +813,19 @@
           "src/main/resources/data/random_xd/recipes/luk.json"
         ]
       }
+    },
+    {
+      "name": "Dver",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dver",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/dver.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
