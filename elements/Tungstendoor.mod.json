@@ -55,7 +55,7 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "WOOD"
+      "value": "ANVIL"
     },
     "tickRate": 0,
     "tickRandomly": false,
