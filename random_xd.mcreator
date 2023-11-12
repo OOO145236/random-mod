@@ -1055,6 +1055,98 @@
           "src/main/resources/assets/random_xd/models/item/titanium_nugget.json"
         ]
       }
+    },
+    {
+      "name": "UraniumNugget",
+      "type": "item",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/uranium_nugget.json",
+          "src/main/java/net/mcreator/randomxd/item/UraniumNuggetItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TungstenNuggetRepice",
+      "type": "recipe",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tungsten_nugget_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumNuggetRepice",
+      "type": "recipe",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_nugget_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_nugget_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumNuggetRepice",
+      "type": "recipe",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uranium_nugget_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "TungstenNuggetRepicee",
+      "type": "recipe",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_nugget_repicee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/tungsten_nugget_repicee.json"
+        ]
+      }
+    },
+    {
+      "name": "TitaniumNuggetRepicee",
+      "type": "recipe",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_nugget_repicee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/titanium_nugget_repicee.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumNuggetRepicee",
+      "type": "recipe",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_nugget_repicee",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uranium_nugget_repicee.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -1067,6 +1159,7 @@
       "item.random_xd.titanium_armor_leggings": "Титановый поножи",
       "item.random_xd.tungsteningot": "Вольфрамовы слиток",
       "item_group.random_xd.splavtab": "Splav`s metalls",
+      "item.random_xd.uranium_nugget": "Uranium Nugget",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Химическое ведро",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
@@ -1112,6 +1205,7 @@
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
       "item.random_xd.tungsteningot": "Tungsten ingot",
       "item_group.random_xd.splavtab": "Splav`s metalls",
+      "item.random_xd.uranium_nugget": "Uranium Nugget",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",

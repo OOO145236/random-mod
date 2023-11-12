@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:RawTitaniumBlock"
+        "value": "CUSTOM:Tungsteningot"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RawTitaniumOre"
+      "value": "CUSTOM:TungstenNugget"
     },
-    "name": "raw_titanium_block_uncraft",
+    "name": "tungsten_nugget_repice",
     "namespace": "mod"
   }
 }

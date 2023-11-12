@@ -1,14 +1,11 @@
 {
-  "type": "minecraft:crafting_shaped",
+  "type": "minecraft:crafting_shapeless",
   "category": "misc",
-  "pattern": [
-    "0"
-  ],
-  "key": {
-    "0": {
+  "ingredients": [
+    {
       "item": "random_xd:raw_tungsten_block"
     }
-  },
+  ],
   "result": {
     "item": "random_xd:tungsten_raw_ore",
     "count": 9

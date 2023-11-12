@@ -3,11 +3,11 @@
   "category": "misc",
   "ingredients": [
     {
-      "item": "random_xd:raw_titanium_block"
+      "item": "random_xd:tungsteningot"
     }
   ],
   "result": {
-    "item": "random_xd:raw_titanium_ore",
+    "item": "random_xd:tungsten_nugget",
     "count": 9
   }
 }

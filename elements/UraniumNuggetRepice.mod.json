@@ -24,7 +24,7 @@
         "value": ""
       },
       {
-        "value": "CUSTOM:RawTitaniumBlock"
+        "value": "CUSTOM:Uraniumingot"
       },
       {
         "value": ""
@@ -40,9 +40,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:RawTitaniumOre"
+      "value": "CUSTOM:UraniumNugget"
     },
-    "name": "raw_titanium_block_uncraft",
+    "name": "uranium_nugget_repice",
     "namespace": "mod"
   }
 }
