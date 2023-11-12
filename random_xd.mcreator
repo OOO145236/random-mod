@@ -1147,6 +1147,45 @@
           "src/main/resources/data/random_xd/recipes/uranium_nugget_repicee.json"
         ]
       }
+    },
+    {
+      "name": "LightingBulb",
+      "type": "item",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_bulb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/item/LightingBulbItem.java",
+          "src/main/resources/assets/random_xd/models/item/lighting_bulb.json"
+        ]
+      }
+    },
+    {
+      "name": "UraniumRod",
+      "type": "item",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_rod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/random_xd/models/item/uranium_rod.json",
+          "src/main/java/net/mcreator/randomxd/item/UraniumRodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "UraniumRodEx",
+      "type": "itemextension",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_rod_ex",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [],
@@ -1162,6 +1201,7 @@
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Химическое ведро",
+      "item.random_xd.uranium_rod": "Uranium Rod",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
       "block.random_xd.tungstenore": "Вольфрамовая руда",
       "block.random_xd.tungstendoor": "Вольфрамовая дверь",
@@ -1175,6 +1215,7 @@
       "item.random_xd.tungsten_raw_ore": "Сырой Вольфрамит",
       "item.random_xd.titanium_sword": "Титановый меч",
       "advancements.titanium_work.descr": "Сделайте полный комплект титановой брони",
+      "item.random_xd.lighting_bulb": "Lighting Bulb",
       "item.random_xd.titanium_saw": "Бензопила",
       "block.random_xd.raw_uranium_block": "Сырой Уран",
       "item.random_xd.titanium_shovel": "Титановая лопата",
@@ -1208,6 +1249,7 @@
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
+      "item.random_xd.uranium_rod": "Uranium Rod",
       "item.random_xd.titanium_armor_helmet": "Titanium Helmet",
       "block.random_xd.tungstenore": "Tungsten ore",
       "block.random_xd.tungstendoor": "Tungstendoor",
@@ -1221,6 +1263,7 @@
       "item.random_xd.tungsten_raw_ore": "Tungsten Raw Ore",
       "item.random_xd.titanium_sword": "Titanium Sword",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
+      "item.random_xd.lighting_bulb": "Lighting Bulb",
       "item.random_xd.titanium_saw": "Titanium saw",
       "block.random_xd.raw_uranium_block": "Raw Uranium Block",
       "item.random_xd.titanium_shovel": "Titanium Shovel",

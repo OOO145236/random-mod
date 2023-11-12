@@ -15,6 +15,7 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.randomxd.item.UraniumingotItem;
 import net.mcreator.randomxd.item.UraniumdustItem;
+import net.mcreator.randomxd.item.UraniumRodItem;
 import net.mcreator.randomxd.item.UraniumNuggetItem;
 import net.mcreator.randomxd.item.TungsteningotItem;
 import net.mcreator.randomxd.item.TungstenRawOreItem;
@@ -30,6 +31,7 @@ import net.mcreator.randomxd.item.TitaniumAxeItem;
 import net.mcreator.randomxd.item.TitaniumArmorItem;
 import net.mcreator.randomxd.item.RawUraniumOreItem;
 import net.mcreator.randomxd.item.RawTitaniumOreItem;
+import net.mcreator.randomxd.item.LightingBulbItem;
 import net.mcreator.randomxd.item.ChemistrybucketItem;
 import net.mcreator.randomxd.item.ChemistryBucketGlowstoneAcidItem;
 import net.mcreator.randomxd.RandomXdMod;
@@ -75,6 +77,8 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> TUNGSTEN_NUGGET = REGISTRY.register("tungsten_nugget", () -> new TungstenNuggetItem());
 	public static final RegistryObject<Item> TITANIUM_NUGGET = REGISTRY.register("titanium_nugget", () -> new TitaniumNuggetItem());
 	public static final RegistryObject<Item> URANIUM_NUGGET = REGISTRY.register("uranium_nugget", () -> new UraniumNuggetItem());
+	public static final RegistryObject<Item> LIGHTING_BULB = REGISTRY.register("lighting_bulb", () -> new LightingBulbItem());
+	public static final RegistryObject<Item> URANIUM_ROD = REGISTRY.register("uranium_rod", () -> new UraniumRodItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
