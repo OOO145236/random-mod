@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "random_xd:tungsteningot"
+    },
+    "1": {
+      "item": "random_xd:uraniumingot"
+    },
+    "2": {
+      "item": "random_xd:tungsteningot"
+    },
+    "3": {
+      "item": "random_xd:tungsten_glass_block"
+    },
+    "4": {
+      "item": "random_xd:uraniumingot"
+    },
+    "5": {
+      "item": "random_xd:tungsten_glass_block"
+    },
+    "6": {
+      "item": "random_xd:tungsteningot"
+    },
+    "7": {
+      "item": "random_xd:uraniumingot"
+    },
+    "8": {
+      "item": "random_xd:tungsteningot"
+    }
+  },
+  "result": {
+    "item": "random_xd:uranium_rod",
+    "count": 1
+  }
+}

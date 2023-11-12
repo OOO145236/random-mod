@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glass"
+    },
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
+      "item": "random_xd:tungsteningot"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "result": {
+    "item": "random_xd:lighting_bulb",
+    "count": 4
+  }
+}

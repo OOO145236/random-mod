@@ -1186,6 +1186,32 @@
       "metadata": {
         "files": []
       }
+    },
+    {
+      "name": "UraniumRodRepice",
+      "type": "recipe",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_rod_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/uranium_rod_repice.json"
+        ]
+      }
+    },
+    {
+      "name": "LightingBulbRepice",
+      "type": "recipe",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lighting_bulb_repice",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/random_xd/recipes/lighting_bulb_repice.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
