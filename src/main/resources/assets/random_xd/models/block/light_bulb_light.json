@@ -1,0 +1,9 @@
+{
+  "parent": "random_xd:custom/light_bulb_placement_-_kopiia",
+  "textures": {
+    "all": "random_xd:block/texture_-_kopiia",
+    "particle": "random_xd:block/texture_-_kopiia",
+    "2": "random_xd:block/lightlight"
+  },
+  "render_type": "translucent"
+}
