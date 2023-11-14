@@ -59,6 +59,9 @@ public class RandomXdModTabs {
 				tabData.accept(RandomXdModItems.URANIUM_NUGGET.get());
 				tabData.accept(RandomXdModItems.LIGHTING_BULB.get());
 				tabData.accept(RandomXdModItems.URANIUM_ROD.get());
+				tabData.accept(RandomXdModBlocks.LIGHT_BULB_SOCKET.get().asItem());
+				tabData.accept(RandomXdModBlocks.LIGHT_BULB_LIGHT.get().asItem());
+				tabData.accept(RandomXdModBlocks.SOCKET.get().asItem());
 			})
 
 					.build());

@@ -79,6 +79,9 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> URANIUM_NUGGET = REGISTRY.register("uranium_nugget", () -> new UraniumNuggetItem());
 	public static final RegistryObject<Item> LIGHTING_BULB = REGISTRY.register("lighting_bulb", () -> new LightingBulbItem());
 	public static final RegistryObject<Item> URANIUM_ROD = REGISTRY.register("uranium_rod", () -> new UraniumRodItem());
+	public static final RegistryObject<Item> LIGHT_BULB_SOCKET = block(RandomXdModBlocks.LIGHT_BULB_SOCKET);
+	public static final RegistryObject<Item> LIGHT_BULB_LIGHT = block(RandomXdModBlocks.LIGHT_BULB_LIGHT);
+	public static final RegistryObject<Item> SOCKET = block(RandomXdModBlocks.SOCKET);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

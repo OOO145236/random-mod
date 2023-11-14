@@ -19,9 +19,12 @@ import net.mcreator.randomxd.block.TungstenPressurePlateBlock;
 import net.mcreator.randomxd.block.TungstenGlassBlockBlock;
 import net.mcreator.randomxd.block.TitaniumOreBlock;
 import net.mcreator.randomxd.block.TitaniumBlockBlock;
+import net.mcreator.randomxd.block.SocketBlock;
 import net.mcreator.randomxd.block.RawUraniumBlockBlock;
 import net.mcreator.randomxd.block.RawTungstenBlockBlock;
 import net.mcreator.randomxd.block.RawTitaniumBlockBlock;
+import net.mcreator.randomxd.block.LightBulbSocketBlock;
+import net.mcreator.randomxd.block.LightBulbLightBlock;
 import net.mcreator.randomxd.block.ExoatleBlock;
 import net.mcreator.randomxd.block.DeepslateTitaniumOreBlock;
 import net.mcreator.randomxd.block.DeeplateTungstenOreBlock;
@@ -48,4 +51,7 @@ public class RandomXdModBlocks {
 	public static final RegistryObject<Block> RAW_TUNGSTEN_BLOCK = REGISTRY.register("raw_tungsten_block", () -> new RawTungstenBlockBlock());
 	public static final RegistryObject<Block> TUNGSTEN_PRESSURE_PLATE = REGISTRY.register("tungsten_pressure_plate", () -> new TungstenPressurePlateBlock());
 	public static final RegistryObject<Block> TUNGSTEN_GLASS_BLOCK = REGISTRY.register("tungsten_glass_block", () -> new TungstenGlassBlockBlock());
+	public static final RegistryObject<Block> LIGHT_BULB_SOCKET = REGISTRY.register("light_bulb_socket", () -> new LightBulbSocketBlock());
+	public static final RegistryObject<Block> LIGHT_BULB_LIGHT = REGISTRY.register("light_bulb_light", () -> new LightBulbLightBlock());
+	public static final RegistryObject<Block> SOCKET = REGISTRY.register("socket", () -> new SocketBlock());
 }
