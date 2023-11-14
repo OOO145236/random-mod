@@ -1,8 +1,27 @@
 package net.mcreator.randomxd.procedures;
 
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
+import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+
+import net.minecraft.world.level.block.state.properties.Property;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.BlockPos;
+
+import net.mcreator.randomxd.init.RandomXdModItems;
+import net.mcreator.randomxd.init.RandomXdModBlocks;
 
 import javax.annotation.Nullable;
+
+import java.util.Map;
 
 @Mod.EventBusSubscriber
 public class BulbaProcedure {
@@ -20,7 +39,8 @@ public class BulbaProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RandomXdModItems.LIGHTING_BULB.get()) {
+		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RandomXdModItems.LIGHTING_BULB.get()
+				&& (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == RandomXdModBlocks.SOCKET.get()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = RandomXdModBlocks.LIGHT_BULB_SOCKET.get().defaultBlockState();
