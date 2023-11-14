@@ -19,7 +19,7 @@
     "isTreasureEnchantment": false,
     "isCurse": false,
     "isAllowedOnBooks": true,
-    "canGenerateInLootTables": true,
+    "canGenerateInLootTables": false,
     "canVillagerTrade": true
   }
 }

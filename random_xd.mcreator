@@ -852,10 +852,10 @@
       "registry_name": "raw_uranium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/raw_uranium_block.json",
           "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
-          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java"
+          "src/main/resources/assets/random_xd/models/item/raw_uranium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json"
         ]
       }
     },
@@ -868,10 +868,10 @@
       "registry_name": "raw_titanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json",
-          "src/main/resources/assets/random_xd/blockstates/raw_titanium_block.json",
           "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java"
+          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/blockstates/raw_titanium_block.json",
+          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json"
         ]
       }
     },
@@ -1209,10 +1209,10 @@
       "registry_name": "light_bulb_socket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/light_bulb_socket.json",
-          "src/main/resources/assets/random_xd/blockstates/light_bulb_socket.json",
           "src/main/resources/assets/random_xd/models/block/light_bulb_socket.json",
-          "src/main/java/net/mcreator/randomxd/block/LightBulbSocketBlock.java"
+          "src/main/java/net/mcreator/randomxd/block/LightBulbSocketBlock.java",
+          "src/main/resources/assets/random_xd/blockstates/light_bulb_socket.json",
+          "src/main/resources/assets/random_xd/models/item/light_bulb_socket.json"
         ]
       }
     },
@@ -1252,8 +1252,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/random_xd/models/item/light_bulb_light.json",
-          "src/main/resources/assets/random_xd/blockstates/light_bulb_light.json",
           "src/main/resources/assets/random_xd/models/block/light_bulb_light.json",
+          "src/main/resources/assets/random_xd/blockstates/light_bulb_light.json",
           "src/main/java/net/mcreator/randomxd/block/LightBulbLightBlock.java"
         ]
       }
@@ -1267,10 +1267,72 @@
       "registry_name": "socket",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/randomxd/block/SocketBlock.java",
           "src/main/resources/assets/random_xd/blockstates/socket.json",
           "src/main/resources/assets/random_xd/models/block/socket.json",
-          "src/main/java/net/mcreator/randomxd/block/SocketBlock.java",
           "src/main/resources/assets/random_xd/models/item/socket.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBulbSocketRedstoneOn",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_socket_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbSocketRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightBulbLightRedstoneOff",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_light_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbLightRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     }
@@ -1279,11 +1341,12 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.titanium_block": "Титановый блок",
+      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.tungstenblock": "Блок Вольфрама",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
+      "block.random_xd.socket": "Light Bulb Socket",
       "item.random_xd.titanium_armor_helmet": "Титановый Шлем",
       "block.random_xd.tungstendoor": "Вольфрамовая дверь",
       "item.random_xd.titanium_hoe": "Титановая Мотыга",
@@ -1295,6 +1358,7 @@
       "advancements.uranium.descr": "Добудьте урановую руду",
       "block.random_xd.tunsten_trapdoor": "Вольфрамовый Люк",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+      "enchantment.random_xd.auto_smelt": "Auto Smelt",
       "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Титановые Ботинки",
       "block.random_xd.cut_tungsten": "Резной Вольфрамовый Блок",
@@ -1309,6 +1373,7 @@
       "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "item.random_xd.chemistrybucket": "Химическое ведро",
+      "block.random_xd.light_bulb_socket": "Light Bulb Socket",
       "block.random_xd.tungstenore": "Вольфрамовая руда",
       "item.random_xd.uraniumdust": "Пыль обраотаного урана",
       "item.random_xd.titanium_armor_chestplate": "титановый Нагрудник",
@@ -1319,6 +1384,7 @@
       "item.random_xd.titanium_saw": "Бензопила",
       "block.random_xd.raw_uranium_block": "Сырой Уран",
       "block.random_xd.raw_titanium_block": "Raw Titanium Block",
+      "block.random_xd.light_bulb_light": "Light Bulb Socket",
       "block.random_xd.tungsten_pressure_plate": "Tungsten Pressure Plate",
       "item.random_xd.raw_titanium_ore": "Сырая Титановая Руда",
       "block.random_xd.uranium_ore": "Ураноносный Глубиносланец",
@@ -1327,8 +1393,8 @@
       "item.random_xd.titanium_nugget": "Titanium Nugget"
     },
     "en_us": {
-      "block.random_xd.titanium_block": "Block of Titanium",
       "advancements.titanium_work.title": "Titanic work!",
+      "block.random_xd.titanium_block": "Block of Titanium",
       "block.random_xd.tungstenblock": "Tungstenblock",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
@@ -1338,7 +1404,7 @@
       "item.random_xd.titanium_hoe": "Titanium Hoe",
       "block.random_xd.titanium_ore": "Titanium Ore",
       "advancements.uranium.title": "URAAAAAANIUM!",
-      "block.random_xd.deeplate_tungsten_ore": "Deepslate Tungsten ore",
+      "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
       "item.random_xd.titanium_shovel": "Titanium Shovel",
       "advancements.uranium.descr": "Mine Uranium Ore",
@@ -1348,19 +1414,19 @@
       "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
       "block.random_xd.cut_tungsten": "Cut Tungsten",
-      "item.random_xd.titanium_ingot": "Titanium Ingot",
+      "item.random_xd.titanium_ingot": "Titanium",
       "block.random_xd.chemicallaboratory": "Chemical laboratory",
       "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
       "item.random_xd.uraniumingot": "Uraniumingot",
       "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
       "item.random_xd.titanium_axe": "Titanium Axe",
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
-      "item.random_xd.tungsteningot": "Tungsten ingot",
+      "item.random_xd.tungsteningot": "Tungsteningot",
       "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
       "block.random_xd.light_bulb_socket": "Light Bulb Socket",
-      "block.random_xd.tungstenore": "Tungsten ore",
+      "block.random_xd.tungstenore": "Tungstenore",
       "item.random_xd.uraniumdust": "Uranium dust",
       "item.random_xd.titanium_armor_chestplate": "Titanium Chestplate",
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
@@ -1375,7 +1441,7 @@
       "item.random_xd.raw_titanium_ore": "Raw Titanium Ore",
       "block.random_xd.uranium_ore": "Uranium Ore",
       "item.random_xd.titanium_pickaxe": "Titanium Pickaxe",
-      "block.random_xd.deepslate_titanium_ore": "Deepslate Titanium Ore",
+      "block.random_xd.deepslate_titanium_ore": "Titanium Ore",
       "item.random_xd.titanium_nugget": "Titanium Nugget"
     }
   },
