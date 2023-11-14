@@ -1376,8 +1376,8 @@
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.titanium_block": "Титановый блок",
+      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.tungstenblock": "Блок Вольфрама",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
@@ -1428,8 +1428,8 @@
       "item.random_xd.titanium_nugget": "Titanium Nugget"
     },
     "en_us": {
-      "block.random_xd.titanium_block": "Block of Titanium",
       "advancements.titanium_work.title": "Titanic work!",
+      "block.random_xd.titanium_block": "Block of Titanium",
       "block.random_xd.tungstenblock": "Tungstenblock",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
