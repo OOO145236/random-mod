@@ -4,23 +4,9 @@ import net.minecraftforge.eventbus.api.Event;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
-public class BulbaProcedure {
-	@SubscribeEvent
-	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-		if (event.getHand() != event.getEntity().getUsedItemHand())
-			return;
-		execute(event, event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getEntity());
-	}
-
-	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
-		execute(null, world, x, y, z, entity);
-	}
-
-	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
-		if (entity == null)
-			return;
-		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == RandomXdModItems.LIGHTING_BULB.get()) {
+public class LightBulbLightRedstoneOffProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z) {
+		if (!(world instanceof Level _level0 && _level0.hasNeighborSignal(BlockPos.containing(x, y, z)))) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = RandomXdModBlocks.LIGHT_BULB_SOCKET.get().defaultBlockState();
@@ -49,10 +35,6 @@ public class BulbaProcedure {
 						}
 					}
 				}
-			}
-			if (entity instanceof Player _player) {
-				ItemStack _stktoremove = new ItemStack(RandomXdModItems.LIGHTING_BULB.get());
-				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 			}
 		}
 	}

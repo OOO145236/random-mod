@@ -23,14 +23,14 @@
       "registry_name": "titanium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/data/random_xd/worldgen/configured_feature/titanium_ore.json",
-          "src/main/resources/data/random_xd/worldgen/placed_feature/titanium_ore.json",
-          "src/main/resources/assets/random_xd/blockstates/titanium_ore.json",
-          "src/main/java/net/mcreator/randomxd/block/TitaniumOreBlock.java",
           "src/main/java/net/mcreator/randomxd/world/features/ores/TitaniumOreFeature.java",
-          "src/main/resources/assets/random_xd/models/block/titanium_ore.json",
           "src/main/resources/data/random_xd/forge/biome_modifier/titanium_ore_biome_modifier.json",
-          "src/main/resources/assets/random_xd/models/item/titanium_ore.json"
+          "src/main/java/net/mcreator/randomxd/block/TitaniumOreBlock.java",
+          "src/main/resources/data/random_xd/worldgen/configured_feature/titanium_ore.json",
+          "src/main/resources/assets/random_xd/models/block/titanium_ore.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_ore.json",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/titanium_ore.json",
+          "src/main/resources/assets/random_xd/blockstates/titanium_ore.json"
         ]
       }
     },
@@ -43,10 +43,10 @@
       "registry_name": "titanium_block",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/randomxd/block/TitaniumBlockBlock.java",
           "src/main/resources/assets/random_xd/models/item/titanium_block.json",
           "src/main/resources/assets/random_xd/blockstates/titanium_block.json",
-          "src/main/resources/assets/random_xd/models/block/titanium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/TitaniumBlockBlock.java"
+          "src/main/resources/assets/random_xd/models/block/titanium_block.json"
         ]
       }
     },
@@ -112,8 +112,8 @@
       "registry_name": "titanium_axe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/titanium_axe.json",
-          "src/main/java/net/mcreator/randomxd/item/TitaniumAxeItem.java"
+          "src/main/java/net/mcreator/randomxd/item/TitaniumAxeItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_axe.json"
         ]
       }
     },
@@ -126,8 +126,8 @@
       "registry_name": "titanium_sword",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/titanium_sword.json",
-          "src/main/java/net/mcreator/randomxd/item/TitaniumSwordItem.java"
+          "src/main/java/net/mcreator/randomxd/item/TitaniumSwordItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_sword.json"
         ]
       }
     },
@@ -140,8 +140,8 @@
       "registry_name": "titanium_shovel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/item/TitaniumShovelItem.java",
-          "src/main/resources/assets/random_xd/models/item/titanium_shovel.json"
+          "src/main/resources/assets/random_xd/models/item/titanium_shovel.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumShovelItem.java"
         ]
       }
     },
@@ -154,8 +154,8 @@
       "registry_name": "titanium_hoe",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/titanium_hoe.json",
-          "src/main/java/net/mcreator/randomxd/item/TitaniumHoeItem.java"
+          "src/main/java/net/mcreator/randomxd/item/TitaniumHoeItem.java",
+          "src/main/resources/assets/random_xd/models/item/titanium_hoe.json"
         ]
       }
     },
@@ -234,10 +234,10 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/random_xd/models/item/titanium_armor_helmet.json",
-          "src/main/resources/assets/random_xd/models/item/titanium_armor_chestplate.json",
-          "src/main/resources/assets/random_xd/models/item/titanium_armor_boots.json",
           "src/main/java/net/mcreator/randomxd/item/TitaniumArmorItem.java",
-          "src/main/resources/assets/random_xd/models/item/titanium_armor_leggings.json"
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_leggings.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_chestplate.json",
+          "src/main/resources/assets/random_xd/models/item/titanium_armor_boots.json"
         ]
       }
     },
@@ -317,13 +317,13 @@
       "metadata": {
         "files": [
           "src/main/resources/data/random_xd/worldgen/configured_feature/deepslate_titanium_ore.json",
-          "src/main/resources/data/random_xd/forge/biome_modifier/deepslate_titanium_ore_biome_modifier.json",
-          "src/main/resources/assets/random_xd/blockstates/deepslate_titanium_ore.json",
+          "src/main/java/net/mcreator/randomxd/block/DeepslateTitaniumOreBlock.java",
           "src/main/java/net/mcreator/randomxd/world/features/ores/DeepslateTitaniumOreFeature.java",
+          "src/main/resources/data/random_xd/forge/biome_modifier/deepslate_titanium_ore_biome_modifier.json",
+          "src/main/resources/assets/random_xd/models/block/deepslate_titanium_ore.json",
           "src/main/resources/assets/random_xd/models/item/deepslate_titanium_ore.json",
           "src/main/resources/data/random_xd/worldgen/placed_feature/deepslate_titanium_ore.json",
-          "src/main/java/net/mcreator/randomxd/block/DeepslateTitaniumOreBlock.java",
-          "src/main/resources/assets/random_xd/models/block/deepslate_titanium_ore.json"
+          "src/main/resources/assets/random_xd/blockstates/deepslate_titanium_ore.json"
         ]
       }
     },
@@ -336,8 +336,8 @@
       "registry_name": "titanium_saw",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/item/TitaniumSawItem.java",
-          "src/main/resources/assets/random_xd/models/item/titanium_saw.json"
+          "src/main/resources/assets/random_xd/models/item/titanium_saw.json",
+          "src/main/java/net/mcreator/randomxd/item/TitaniumSawItem.java"
         ]
       }
     },
@@ -350,13 +350,13 @@
       "registry_name": "uranium_ore",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/block/UraniumOreBlock.java",
-          "src/main/resources/data/random_xd/forge/biome_modifier/uranium_ore_biome_modifier.json",
-          "src/main/resources/data/random_xd/worldgen/configured_feature/uranium_ore.json",
           "src/main/resources/assets/random_xd/models/item/uranium_ore.json",
+          "src/main/resources/data/random_xd/forge/biome_modifier/uranium_ore_biome_modifier.json",
           "src/main/java/net/mcreator/randomxd/world/features/ores/UraniumOreFeature.java",
-          "src/main/resources/data/random_xd/worldgen/placed_feature/uranium_ore.json",
           "src/main/resources/assets/random_xd/models/block/uranium_ore.json",
+          "src/main/java/net/mcreator/randomxd/block/UraniumOreBlock.java",
+          "src/main/resources/data/random_xd/worldgen/placed_feature/uranium_ore.json",
+          "src/main/resources/data/random_xd/worldgen/configured_feature/uranium_ore.json",
           "src/main/resources/assets/random_xd/blockstates/uranium_ore.json"
         ]
       }
@@ -370,8 +370,8 @@
       "registry_name": "raw_uranium_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/raw_uranium_ore.json",
-          "src/main/java/net/mcreator/randomxd/item/RawUraniumOreItem.java"
+          "src/main/java/net/mcreator/randomxd/item/RawUraniumOreItem.java",
+          "src/main/resources/assets/random_xd/models/item/raw_uranium_ore.json"
         ]
       }
     },
@@ -429,8 +429,8 @@
       "registry_name": "uraniumingot",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/item/UraniumingotItem.java",
-          "src/main/resources/assets/random_xd/models/item/uraniumingot.json"
+          "src/main/resources/assets/random_xd/models/item/uraniumingot.json",
+          "src/main/java/net/mcreator/randomxd/item/UraniumingotItem.java"
         ]
       }
     },
@@ -443,10 +443,10 @@
       "registry_name": "chemicallaboratory",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/chemicallaboratory.json",
           "src/main/resources/assets/random_xd/blockstates/chemicallaboratory.json",
+          "src/main/resources/assets/random_xd/models/block/chemicallaboratory.json",
           "src/main/java/net/mcreator/randomxd/block/ChemicallaboratoryBlock.java",
-          "src/main/resources/assets/random_xd/models/block/chemicallaboratory.json"
+          "src/main/resources/assets/random_xd/models/item/chemicallaboratory.json"
         ]
       }
     },
@@ -512,8 +512,8 @@
       "registry_name": "chemistry_bucket_glowstone_acid",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/chemistry_bucket_glowstone_acid.json",
-          "src/main/java/net/mcreator/randomxd/item/ChemistryBucketGlowstoneAcidItem.java"
+          "src/main/java/net/mcreator/randomxd/item/ChemistryBucketGlowstoneAcidItem.java",
+          "src/main/resources/assets/random_xd/models/item/chemistry_bucket_glowstone_acid.json"
         ]
       }
     },
@@ -526,9 +526,9 @@
       "registry_name": "tungstenore",
       "metadata": {
         "files": [
+          "src/main/resources/assets/random_xd/blockstates/tungstenore.json",
           "src/main/resources/assets/random_xd/models/block/tungstenore.json",
           "src/main/java/net/mcreator/randomxd/block/TungstenoreBlock.java",
-          "src/main/resources/assets/random_xd/blockstates/tungstenore.json",
           "src/main/resources/assets/random_xd/models/item/tungstenore.json"
         ]
       }
@@ -591,9 +591,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/randomxd/block/DeeplateTungstenOreBlock.java",
-          "src/main/resources/assets/random_xd/models/item/deeplate_tungsten_ore.json",
+          "src/main/resources/assets/random_xd/models/block/deeplate_tungsten_ore.json",
           "src/main/resources/assets/random_xd/blockstates/deeplate_tungsten_ore.json",
-          "src/main/resources/assets/random_xd/models/block/deeplate_tungsten_ore.json"
+          "src/main/resources/assets/random_xd/models/item/deeplate_tungsten_ore.json"
         ]
       }
     },
@@ -606,17 +606,17 @@
       "registry_name": "tungstendoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_right.json",
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right.json",
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left.json",
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left_open.json",
-          "src/main/resources/assets/random_xd/models/item/tungstendoor.json",
           "src/main/resources/assets/random_xd/blockstates/tungstendoor.json",
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_left_open.json",
-          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right_open.json",
           "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_left.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_left_open.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left.json",
           "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_right_open.json",
-          "src/main/java/net/mcreator/randomxd/block/TungstendoorBlock.java"
+          "src/main/resources/assets/random_xd/models/item/tungstendoor.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_bottom_right.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right_open.json",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_left_open.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstendoorBlock.java",
+          "src/main/resources/assets/random_xd/models/block/tungstendoor_top_right.json"
         ]
       }
     },
@@ -629,11 +629,11 @@
       "registry_name": "tunsten_trapdoor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor.json",
-          "src/main/java/net/mcreator/randomxd/block/TunstenTrapdoorBlock.java",
-          "src/main/resources/assets/random_xd/models/item/tunsten_trapdoor.json",
           "src/main/resources/assets/random_xd/blockstates/tunsten_trapdoor.json",
+          "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor.json",
           "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor_open.json",
+          "src/main/resources/assets/random_xd/models/item/tunsten_trapdoor.json",
+          "src/main/java/net/mcreator/randomxd/block/TunstenTrapdoorBlock.java",
           "src/main/resources/assets/random_xd/models/block/tunsten_trapdoor_top.json"
         ]
       }
@@ -661,8 +661,8 @@
       "registry_name": "tungsten_raw_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/tungsten_raw_ore.json",
-          "src/main/java/net/mcreator/randomxd/item/TungstenRawOreItem.java"
+          "src/main/java/net/mcreator/randomxd/item/TungstenRawOreItem.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_raw_ore.json"
         ]
       }
     },
@@ -675,9 +675,9 @@
       "registry_name": "tungstenblock",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/tungstenblock.json",
           "src/main/resources/assets/random_xd/blockstates/tungstenblock.json",
           "src/main/resources/assets/random_xd/models/block/tungstenblock.json",
+          "src/main/resources/assets/random_xd/models/item/tungstenblock.json",
           "src/main/java/net/mcreator/randomxd/block/TungstenblockBlock.java"
         ]
       }
@@ -692,9 +692,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/randomxd/block/CutTungstenBlock.java",
-          "src/main/resources/assets/random_xd/blockstates/cut_tungsten.json",
+          "src/main/resources/assets/random_xd/models/item/cut_tungsten.json",
           "src/main/resources/assets/random_xd/models/block/cut_tungsten.json",
-          "src/main/resources/assets/random_xd/models/item/cut_tungsten.json"
+          "src/main/resources/assets/random_xd/blockstates/cut_tungsten.json"
         ]
       }
     },
@@ -733,9 +733,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/random_xd/models/item/exoatle.json",
+          "src/main/resources/assets/random_xd/blockstates/exoatle.json",
           "src/main/java/net/mcreator/randomxd/block/ExoatleBlock.java",
-          "src/main/resources/assets/random_xd/models/block/exoatle.json",
-          "src/main/resources/assets/random_xd/blockstates/exoatle.json"
+          "src/main/resources/assets/random_xd/models/block/exoatle.json"
         ]
       }
     },
@@ -910,10 +910,10 @@
       "registry_name": "raw_tungsten_block",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/block/RawTungstenBlockBlock.java",
-          "src/main/resources/assets/random_xd/models/block/raw_tungsten_block.json",
           "src/main/resources/assets/random_xd/blockstates/raw_tungsten_block.json",
-          "src/main/resources/assets/random_xd/models/item/raw_tungsten_block.json"
+          "src/main/resources/assets/random_xd/models/block/raw_tungsten_block.json",
+          "src/main/resources/assets/random_xd/models/item/raw_tungsten_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawTungstenBlockBlock.java"
         ]
       }
     },
@@ -952,11 +952,11 @@
       "registry_name": "tungsten_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/block/TungstenPressurePlateBlock.java",
-          "src/main/resources/assets/random_xd/models/item/tungsten_pressure_plate.json",
           "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate_down.json",
+          "src/main/resources/assets/random_xd/models/item/tungsten_pressure_plate.json",
           "src/main/resources/assets/random_xd/blockstates/tungsten_pressure_plate.json",
-          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json"
+          "src/main/resources/assets/random_xd/models/block/tungsten_pressure_plate.json",
+          "src/main/java/net/mcreator/randomxd/block/TungstenPressurePlateBlock.java"
         ]
       }
     },
@@ -969,10 +969,10 @@
       "registry_name": "tungsten_glass_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/tungsten_glass_block.json",
           "src/main/resources/assets/random_xd/blockstates/tungsten_glass_block.json",
-          "src/main/resources/assets/random_xd/models/block/tungsten_glass_block.json",
-          "src/main/java/net/mcreator/randomxd/block/TungstenGlassBlockBlock.java"
+          "src/main/java/net/mcreator/randomxd/block/TungstenGlassBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/item/tungsten_glass_block.json",
+          "src/main/resources/assets/random_xd/models/block/tungsten_glass_block.json"
         ]
       }
     },
@@ -1157,8 +1157,8 @@
       "registry_name": "lighting_bulb",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/lighting_bulb.json",
-          "src/main/java/net/mcreator/randomxd/item/LightingBulbItem.java"
+          "src/main/java/net/mcreator/randomxd/item/LightingBulbItem.java",
+          "src/main/resources/assets/random_xd/models/item/lighting_bulb.json"
         ]
       }
     },
@@ -1171,8 +1171,8 @@
       "registry_name": "uranium_rod",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/randomxd/item/UraniumRodItem.java",
-          "src/main/resources/assets/random_xd/models/item/uranium_rod.json"
+          "src/main/resources/assets/random_xd/models/item/uranium_rod.json",
+          "src/main/java/net/mcreator/randomxd/item/UraniumRodItem.java"
         ]
       }
     },
@@ -1188,6 +1188,19 @@
       }
     },
     {
+      "name": "AutoSmelt",
+      "type": "enchantment",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auto_smelt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/enchantment/AutoSmeltEnchantment.java"
+        ]
+      }
+    },
+    {
       "name": "LightBulbSocket",
       "type": "block",
       "sortid": 89,
@@ -1196,10 +1209,10 @@
       "registry_name": "light_bulb_socket",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/light_bulb_socket.json",
-          "src/main/resources/assets/random_xd/blockstates/light_bulb_socket.json",
           "src/main/resources/assets/random_xd/models/block/light_bulb_socket.json",
-          "src/main/java/net/mcreator/randomxd/block/LightBulbSocketBlock.java"
+          "src/main/java/net/mcreator/randomxd/block/LightBulbSocketBlock.java",
+          "src/main/resources/assets/random_xd/blockstates/light_bulb_socket.json",
+          "src/main/resources/assets/random_xd/models/item/light_bulb_socket.json"
         ]
       }
     },
@@ -1254,10 +1267,72 @@
       "registry_name": "socket",
       "metadata": {
         "files": [
+          "src/main/java/net/mcreator/randomxd/block/SocketBlock.java",
           "src/main/resources/assets/random_xd/blockstates/socket.json",
           "src/main/resources/assets/random_xd/models/block/socket.json",
-          "src/main/java/net/mcreator/randomxd/block/SocketBlock.java",
           "src/main/resources/assets/random_xd/models/item/socket.json"
+        ]
+      }
+    },
+    {
+      "name": "LightBulbSocketRedstoneOn",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_socket_redstone_on",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbSocketRedstoneOnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightBulbLightRedstoneOff",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_light_redstone_off",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbLightRedstoneOffProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
         ]
       }
     },
@@ -1318,6 +1393,7 @@
       "advancements.uranium.descr": "Добудьте урановую руду",
       "block.random_xd.tunsten_trapdoor": "Вольфрамовый Люк",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+      "enchantment.random_xd.auto_smelt": "Auto Smelt",
       "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Титановые Ботинки",
       "block.random_xd.cut_tungsten": "Резной Вольфрамовый Блок",
@@ -1369,6 +1445,7 @@
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
+      "enchantment.random_xd.auto_smelt": "Auto Smelt",
       "item.random_xd.tungsten_nugget": "Tungsten Nugget",
       "item.random_xd.titanium_armor_boots": "Titanium Boots",
       "block.random_xd.cut_tungsten": "Cut Tungsten",
