@@ -14,7 +14,7 @@ import java.util.Map;
 
 public class LightBulbLightRedstoneOffProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (!(world instanceof Level _level0 && _level0.hasNeighborSignal(BlockPos.containing(x, y, z)))) {
+		if (!(world instanceof Level _level0 && _level0.hasNeighborSignal(BlockPos.containing(x, y, z))) && (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == RandomXdModBlocks.LIGHT_BULB_LIGHT.get()) {
 			{
 				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockState _bs = RandomXdModBlocks.LIGHT_BULB_SOCKET.get().defaultBlockState();

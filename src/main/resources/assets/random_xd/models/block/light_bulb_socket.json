@@ -1,8 +1,8 @@
 {
   "parent": "random_xd:custom/light_bulb_placement",
   "textures": {
-    "all": "random_xd:block/texture_-_kopiia",
-    "particle": "random_xd:block/texture_-_kopiia",
+    "all": "random_xd:block/wolfram24",
+    "particle": "random_xd:block/wolfram24",
     "2": "random_xd:block/texture"
   },
   "render_type": "cutout"
