@@ -32,7 +32,6 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.randomxd.init.RandomXdModTabs;
 import net.mcreator.randomxd.init.RandomXdModItems;
 import net.mcreator.randomxd.init.RandomXdModFeatures;
-import net.mcreator.randomxd.init.RandomXdModEnchantments;
 import net.mcreator.randomxd.init.RandomXdModBlocks;
 
 import java.util.function.Supplier;
@@ -57,7 +56,6 @@ public class RandomXdMod {
 
 		RandomXdModItems.REGISTRY.register(bus);
 
-		RandomXdModEnchantments.REGISTRY.register(bus);
 		RandomXdModTabs.REGISTRY.register(bus);
 		RandomXdModFeatures.REGISTRY.register(bus);
 
