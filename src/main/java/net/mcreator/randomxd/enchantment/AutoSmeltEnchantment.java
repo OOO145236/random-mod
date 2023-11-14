@@ -1,14 +1,8 @@
 
 package net.mcreator.randomxd.enchantment;
 
-import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.world.item.enchantment.EnchantmentCategory;
-import net.minecraft.world.item.enchantment.Enchantment;
-import net.minecraft.world.entity.EquipmentSlot;
-
-import java.util.List;
-
 public class AutoSmeltEnchantment extends Enchantment {
+
 	public AutoSmeltEnchantment(EquipmentSlot... slots) {
 		super(Enchantment.Rarity.RARE, EnchantmentCategory.DIGGER, slots);
 	}
@@ -22,4 +16,5 @@ public class AutoSmeltEnchantment extends Enchantment {
 	public boolean isDiscoverable() {
 		return false;
 	}
+
 }

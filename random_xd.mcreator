@@ -852,10 +852,10 @@
       "registry_name": "raw_uranium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
           "src/main/resources/assets/random_xd/models/item/raw_uranium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java",
-          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json"
+          "src/main/resources/assets/random_xd/blockstates/raw_uranium_block.json",
+          "src/main/resources/assets/random_xd/models/block/raw_uranium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawUraniumBlockBlock.java"
         ]
       }
     },
@@ -868,10 +868,10 @@
       "registry_name": "raw_titanium_block",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
-          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java",
+          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json",
           "src/main/resources/assets/random_xd/blockstates/raw_titanium_block.json",
-          "src/main/resources/assets/random_xd/models/block/raw_titanium_block.json"
+          "src/main/resources/assets/random_xd/models/item/raw_titanium_block.json",
+          "src/main/java/net/mcreator/randomxd/block/RawTitaniumBlockBlock.java"
         ]
       }
     },
@@ -1252,8 +1252,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/random_xd/models/item/light_bulb_light.json",
-          "src/main/resources/assets/random_xd/models/block/light_bulb_light.json",
           "src/main/resources/assets/random_xd/blockstates/light_bulb_light.json",
+          "src/main/resources/assets/random_xd/models/block/light_bulb_light.json",
           "src/main/java/net/mcreator/randomxd/block/LightBulbLightBlock.java"
         ]
       }
@@ -1317,6 +1317,41 @@
           "src/main/java/net/mcreator/randomxd/procedures/LightBulbLightRedstoneOffProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bulba",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulba",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/BulbaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
