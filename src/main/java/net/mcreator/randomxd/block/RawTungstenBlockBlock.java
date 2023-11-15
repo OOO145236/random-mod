@@ -16,7 +16,7 @@ import java.util.Collections;
 
 public class RawTungstenBlockBlock extends Block {
 	public RawTungstenBlockBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.GRAVEL).strength(1f, 10f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(5f, 6f));
 	}
 
 	@Override

@@ -1370,14 +1370,76 @@
           }
         ]
       }
+    },
+    {
+      "name": "LightBulbLightBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_light_block_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbLightBlockDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightBulbSocketDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_bulb_socket_destroyed_by_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/randomxd/procedures/LightBulbSocketDestroyedByPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.titanium_block": "Титановый блок",
+      "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.tungstenblock": "Блок Вольфрама",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
@@ -1428,8 +1490,8 @@
       "item.random_xd.titanium_nugget": "Titanium Nugget"
     },
     "en_us": {
-      "block.random_xd.titanium_block": "Block of Titanium",
       "advancements.titanium_work.title": "Titanic work!",
+      "block.random_xd.titanium_block": "Block of Titanium",
       "block.random_xd.tungstenblock": "Tungstenblock",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
