@@ -38,7 +38,7 @@ import net.mcreator.randomxd.RandomXdMod;
 
 public class RandomXdModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, RandomXdMod.MODID);
-	public static final RegistryObject<Item> TITANIUM_BLOCK = block(RandomXdModBlocks.TITANIUM_BLOCK);
+	public static final RegistryObject<Item> TITANIUM_METAL_BLOCK = block(RandomXdModBlocks.TITANIUM_METAL_BLOCK);
 	public static final RegistryObject<Item> TITANIUM_ORE = block(RandomXdModBlocks.TITANIUM_ORE);
 	public static final RegistryObject<Item> TITANIUM_AXE = REGISTRY.register("titanium_axe", () -> new TitaniumAxeItem());
 	public static final RegistryObject<Item> TITANIUM_PICKAXE = REGISTRY.register("titanium_pickaxe", () -> new TitaniumPickaxeItem());
@@ -55,7 +55,7 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> TITANIUM_SAW = REGISTRY.register("titanium_saw", () -> new TitaniumSawItem());
 	public static final RegistryObject<Item> URANIUM_ORE = block(RandomXdModBlocks.URANIUM_ORE);
 	public static final RegistryObject<Item> RAW_URANIUM_ORE = REGISTRY.register("raw_uranium_ore", () -> new RawUraniumOreItem());
-	public static final RegistryObject<Item> URANIUMINGOT = REGISTRY.register("uraniumingot", () -> new UraniumingotItem());
+	public static final RegistryObject<Item> URANIUM_INGOT = REGISTRY.register("uranium_ingot", () -> new UraniumingotItem());
 	public static final RegistryObject<Item> CHEMICALLABORATORY = block(RandomXdModBlocks.CHEMICALLABORATORY);
 	public static final RegistryObject<Item> CHEMISTRYBUCKET = REGISTRY.register("chemistrybucket", () -> new ChemistrybucketItem());
 	public static final RegistryObject<Item> CHEMISTRY_BUCKET_GLOWSTONE_ACID = REGISTRY.register("chemistry_bucket_glowstone_acid", () -> new ChemistryBucketGlowstoneAcidItem());
@@ -63,7 +63,7 @@ public class RandomXdModItems {
 	public static final RegistryObject<Item> DEEPLATE_TUNGSTEN_ORE = block(RandomXdModBlocks.DEEPLATE_TUNGSTEN_ORE);
 	public static final RegistryObject<Item> TUNGSTENDOOR = doubleBlock(RandomXdModBlocks.TUNGSTENDOOR);
 	public static final RegistryObject<Item> TUNSTEN_TRAPDOOR = block(RandomXdModBlocks.TUNSTEN_TRAPDOOR);
-	public static final RegistryObject<Item> TUNGSTENINGOT = REGISTRY.register("tungsteningot", () -> new TungsteningotItem());
+	public static final RegistryObject<Item> TUNGSTEN_INGOT = REGISTRY.register("tungsten_ingot", () -> new TungsteningotItem());
 	public static final RegistryObject<Item> TUNGSTEN_RAW_ORE = REGISTRY.register("tungsten_raw_ore", () -> new TungstenRawOreItem());
 	public static final RegistryObject<Item> TUNGSTENBLOCK = block(RandomXdModBlocks.TUNGSTENBLOCK);
 	public static final RegistryObject<Item> CUT_TUNGSTEN = block(RandomXdModBlocks.CUT_TUNGSTEN);

@@ -17,8 +17,8 @@ import net.mcreator.randomxd.RandomXdMod;
 public class RandomXdModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, RandomXdMod.MODID);
 	public static final RegistryObject<CreativeModeTab> SPLAVTAB = REGISTRY.register("splavtab",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.random_xd.splavtab")).icon(() -> new ItemStack(RandomXdModItems.TUNGSTENINGOT.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(RandomXdModBlocks.TITANIUM_BLOCK.get().asItem());
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.random_xd.splavtab")).icon(() -> new ItemStack(RandomXdModItems.TUNGSTEN_INGOT.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(RandomXdModBlocks.TITANIUM_METAL_BLOCK.get().asItem());
 				tabData.accept(RandomXdModBlocks.TITANIUM_ORE.get().asItem());
 				tabData.accept(RandomXdModItems.TITANIUM_AXE.get());
 				tabData.accept(RandomXdModItems.TITANIUM_PICKAXE.get());
@@ -35,7 +35,7 @@ public class RandomXdModTabs {
 				tabData.accept(RandomXdModItems.TITANIUM_SAW.get());
 				tabData.accept(RandomXdModBlocks.URANIUM_ORE.get().asItem());
 				tabData.accept(RandomXdModItems.RAW_URANIUM_ORE.get());
-				tabData.accept(RandomXdModItems.URANIUMINGOT.get());
+				tabData.accept(RandomXdModItems.URANIUM_INGOT.get());
 				tabData.accept(RandomXdModBlocks.CHEMICALLABORATORY.get().asItem());
 				tabData.accept(RandomXdModItems.CHEMISTRYBUCKET.get());
 				tabData.accept(RandomXdModItems.CHEMISTRY_BUCKET_GLOWSTONE_ACID.get());
@@ -43,7 +43,7 @@ public class RandomXdModTabs {
 				tabData.accept(RandomXdModBlocks.DEEPLATE_TUNGSTEN_ORE.get().asItem());
 				tabData.accept(RandomXdModBlocks.TUNGSTENDOOR.get().asItem());
 				tabData.accept(RandomXdModBlocks.TUNSTEN_TRAPDOOR.get().asItem());
-				tabData.accept(RandomXdModItems.TUNGSTENINGOT.get());
+				tabData.accept(RandomXdModItems.TUNGSTEN_INGOT.get());
 				tabData.accept(RandomXdModItems.TUNGSTEN_RAW_ORE.get());
 				tabData.accept(RandomXdModBlocks.TUNGSTENBLOCK.get().asItem());
 				tabData.accept(RandomXdModBlocks.CUT_TUNGSTEN.get().asItem());

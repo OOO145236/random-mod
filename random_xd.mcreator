@@ -40,13 +40,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_block",
+      "registry_name": "titanium_metal_block",
       "metadata": {
         "files": [
+          "src/main/resources/assets/random_xd/models/item/titanium_metal_block.json",
+          "src/main/resources/assets/random_xd/blockstates/titanium_metal_block.json",
           "src/main/java/net/mcreator/randomxd/block/TitaniumBlockBlock.java",
-          "src/main/resources/assets/random_xd/models/item/titanium_block.json",
-          "src/main/resources/assets/random_xd/blockstates/titanium_block.json",
-          "src/main/resources/assets/random_xd/models/block/titanium_block.json"
+          "src/main/resources/assets/random_xd/models/block/titanium_metal_block.json"
         ]
       }
     },
@@ -426,11 +426,11 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "uraniumingot",
+      "registry_name": "uranium_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/random_xd/models/item/uraniumingot.json",
-          "src/main/java/net/mcreator/randomxd/item/UraniumingotItem.java"
+          "src/main/java/net/mcreator/randomxd/item/UraniumingotItem.java",
+          "src/main/resources/assets/random_xd/models/item/uranium_ingot.json"
         ]
       }
     },
@@ -644,11 +644,11 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tungsteningot",
+      "registry_name": "tungsten_ingot",
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/randomxd/item/TungsteningotItem.java",
-          "src/main/resources/assets/random_xd/models/item/tungsteningot.json"
+          "src/main/resources/assets/random_xd/models/item/tungsten_ingot.json"
         ]
       }
     },
@@ -1432,13 +1432,26 @@
           }
         ]
       }
+    },
+    {
+      "name": "Tungsten",
+      "type": "tag",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/tungsten.json"
+        ]
+      },
+      "path": "~/repices"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "ru_ru": {
-      "block.random_xd.titanium_block": "Титановый блок",
       "advancements.titanium_work.title": "Титаниеская работа!",
       "block.random_xd.tungstenblock": "Блок Вольфрама",
       "block.random_xd.exoatle": "Exoatle",
@@ -1451,7 +1464,9 @@
       "advancements.uranium.title": "ура уран!",
       "block.random_xd.deeplate_tungsten_ore": "Вольфрамоносный глубиносланец",
       "advancements.titanium_work.descr": "Сделайте полный комплект титановой брони",
+      "item.random_xd.tungsten_ingot": "Tungsteningot",
       "item.random_xd.titanium_shovel": "Титановая лопата",
+      "item.random_xd.uranium_ingot": "Uraniumingot",
       "advancements.uranium.descr": "Добудьте урановую руду",
       "block.random_xd.tunsten_trapdoor": "Вольфрамовый Люк",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
@@ -1462,11 +1477,9 @@
       "item.random_xd.titanium_ingot": "Титановый Слиток",
       "block.random_xd.chemicallaboratory": "Химическая лаборатория",
       "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
-      "item.random_xd.uraniumingot": "Слиток Урана",
       "item.random_xd.raw_uranium_ore": "Необработаная Урановая Руда",
       "item.random_xd.titanium_axe": "Титановый Топор",
       "item.random_xd.titanium_armor_leggings": "Титановый поножи",
-      "item.random_xd.tungsteningot": "Вольфрамовы слиток",
       "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "item.random_xd.chemistrybucket": "Химическое ведро",
@@ -1477,6 +1490,7 @@
       "item.random_xd.chemistry_bucket_glowstone_acid": "Химическое ведро светокаменной кислоты",
       "item.random_xd.tungsten_raw_ore": "Сырой Вольфрамит",
       "item.random_xd.titanium_sword": "Титановый меч",
+      "block.random_xd.titanium_metal_block": "Block of Titanium",
       "item.random_xd.lighting_bulb": "Lighting Bulb",
       "item.random_xd.titanium_saw": "Бензопила",
       "block.random_xd.raw_uranium_block": "Сырой Уран",
@@ -1491,7 +1505,6 @@
     },
     "en_us": {
       "advancements.titanium_work.title": "Titanic work!",
-      "block.random_xd.titanium_block": "Block of Titanium",
       "block.random_xd.tungstenblock": "Tungstenblock",
       "block.random_xd.exoatle": "Exoatle",
       "item.random_xd.uranium_rod": "Uranium Rod",
@@ -1503,7 +1516,9 @@
       "advancements.uranium.title": "URAAAAAANIUM!",
       "block.random_xd.deeplate_tungsten_ore": "Tungstenore",
       "advancements.titanium_work.descr": "Make a Full Set of Titanium Armor",
+      "item.random_xd.tungsten_ingot": "Tungsteningot",
       "item.random_xd.titanium_shovel": "Titanium Shovel",
+      "item.random_xd.uranium_ingot": "Uraniumingot",
       "advancements.uranium.descr": "Mine Uranium Ore",
       "block.random_xd.tunsten_trapdoor": "Tunsten Trapdoor",
       "block.random_xd.tungsten_glass_block": "Tungsten Glass Block",
@@ -1514,11 +1529,9 @@
       "item.random_xd.titanium_ingot": "Titanium",
       "block.random_xd.chemicallaboratory": "Chemical laboratory",
       "block.random_xd.raw_tungsten_block": "Raw Tungsten Block",
-      "item.random_xd.uraniumingot": "Uraniumingot",
       "item.random_xd.raw_uranium_ore": "Raw Uranium Ore",
       "item.random_xd.titanium_axe": "Titanium Axe",
       "item.random_xd.titanium_armor_leggings": "Titanium Leggings",
-      "item.random_xd.tungsteningot": "Tungsteningot",
       "item_group.random_xd.splavtab": "Splav`s metalls",
       "item.random_xd.uranium_nugget": "Uranium Nugget",
       "item.random_xd.chemistrybucket": "Chemistry bucket",
@@ -1529,6 +1542,7 @@
       "item.random_xd.chemistry_bucket_glowstone_acid": "Chemistry bucket",
       "item.random_xd.tungsten_raw_ore": "Tungsten Raw Ore",
       "item.random_xd.titanium_sword": "Titanium Sword",
+      "block.random_xd.titanium_metal_block": "Block of Titanium",
       "item.random_xd.lighting_bulb": "Lighting Bulb",
       "item.random_xd.titanium_saw": "Titanium saw",
       "block.random_xd.raw_uranium_block": "Raw Uranium Block",

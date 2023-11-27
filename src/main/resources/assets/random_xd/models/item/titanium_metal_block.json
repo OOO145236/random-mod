@@ -1,5 +1,5 @@
 {
-  "parent": "random_xd:block/titanium_block",
+  "parent": "random_xd:block/titanium_metal_block",
   "display": {
     "thirdperson": {
       "rotation": [
