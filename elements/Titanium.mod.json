@@ -5,14 +5,14 @@
     "type": "Items",
     "items": [
       {
-        "value": "CUSTOM:Uraniumingot"
+        "value": "CUSTOM:TitaniumIngot"
       }
     ],
     "blocks": [],
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "uranium",
+    "name": "titanium",
     "namespace": "forge"
   }
 }

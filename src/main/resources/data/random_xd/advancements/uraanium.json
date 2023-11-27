@@ -4,10 +4,10 @@
       "item": "random_xd:raw_uranium_ore"
     },
     "title": {
-      "translate": "advancements.uranium.title"
+      "translate": "advancements.uraanium.title"
     },
     "description": {
-      "translate": "advancements.uranium.descr"
+      "translate": "advancements.uraanium.descr"
     },
     "frame": "goal",
     "show_toast": true,
@@ -15,7 +15,7 @@
     "hidden": false
   },
   "criteria": {
-    "uranium": {
+    "uraanium": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
